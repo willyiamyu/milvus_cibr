@@ -6,4 +6,4 @@ Using inspiration from David Shvimer's Towards Data Science post (https://toward
 ## To Run:
 Install Docker
 
-Download data and files and run 'docker-compose' up in root directory
+Download data and files and run `docker-compose up` in root directory
