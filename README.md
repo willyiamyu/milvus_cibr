@@ -20,8 +20,8 @@ Feedback for Milvus:
 
 The only difficulty I found was through connecting the server. I could only connect to the server through a Dockerized environment, so maybe noting that in the documentation would be good.
 Documentation was very clear and I didn't have trouble after that, but I did have to reshape my data a few times to comply with the parameters.
-Use cases:
 
+Use cases:
 Recommendation engines (products, news articles, etc)
 Question Answering, Chatbot
 
