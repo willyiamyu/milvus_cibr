@@ -16,10 +16,7 @@ Milvus provides an easy way to conduct vector similarity search and can be used 
 
 I really enjoyed doing this project, as I have never really quite done anything like this. Another idea I had was to use Word2Vec embeddings and visualize them, which I hope to try in the future. 
 
-Feedback for Milvus:
-
-The only difficulty I found was through connecting the server. I could only connect to the server through a Dockerized environment, so maybe noting that in the documentation would be good.
-Documentation was very clear and I didn't have trouble after that, but I did have to reshape my data a few times to comply with the parameters.
+The only difficulty I found was through connecting the server. I could only connect to the server through a Dockerized environment, so maybe noting that in the documentation would be good. The documentation was very clear and I didn't have trouble after that, but I did have to reshape my data a few times to comply with the parameters.
 
 Use cases:
 Recommendation engines (products, news articles, etc)
