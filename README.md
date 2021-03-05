@@ -13,7 +13,7 @@ Install Docker
 Download data and files and run `docker-compose up` in root directory
 
 ## Comments/Feedback
-Milvus provides an easy way to conduct vector similarity search and can be used in a multitude of ways. The use cases are huge and do not have to apply to just images, but rather text, video and audio. An interesting use case would be to find landmarks you went to but forgot about and using an image database to find a match.
+Milvus provides an easy way to conduct vector similarity search and can be used in a multitude of ways. The use cases are huge and do not only apply to images, but to text, video and audio. An interesting use case would be to find landmarks you went to but forgot about and using an image database to find a match.
 
 I really enjoyed doing this project, as I have never really quite done anything like this. Another idea I had was to use Word2Vec embeddings and visualize them, which I hope to try in the future. 
 
