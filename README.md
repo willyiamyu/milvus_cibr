@@ -9,6 +9,7 @@ The data is linked here: https://www.kaggle.com/c/dogs-vs-cats/data?select=test1
 
 ## To Run:
 Install Docker
+
 Download data and files and run `docker-compose up` in root directory
 
 ## Comments/Feedback
