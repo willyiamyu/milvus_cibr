@@ -1,0 +1,22 @@
+[2021-03-05 13:55:02,750][ERROR][SERVER][OnExecute][reqsched_thread] [insert][0] Invalid vector data: The vector dimension must be equal to the collection dimension.
+[2021-03-05 13:55:02,753][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30104): The vector dimension must be equal to the collection dimension.
+[2021-03-05 13:56:25,320][ERROR][SERVER][OnExecute][reqsched_thread] [insert][0] Invalid vector data: The vector dimension must be equal to the collection dimension.
+[2021-03-05 13:56:25,321][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30104): The vector dimension must be equal to the collection dimension.
+[2021-03-05 13:57:07,565][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30101): Collection already exists
+[2021-03-05 13:57:20,009][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30101): Collection already exists
+[2021-03-05 13:57:50,449][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30101): Collection already exists
+[2021-03-05 13:57:50,477][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30100): Collection resnet2048 does not exist. Use milvus.has_collection to verify whether the collection exists. You also can check whether the collection name exists.
+[2021-03-05 13:58:21,610][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30101): Collection already exists
+[2021-03-05 13:58:38,275][ERROR][SERVER][OnExecute][reqsched_thread] [insert][0] Invalid vector data: The vector dimension must be equal to the collection dimension.
+[2021-03-05 13:58:38,276][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30104): The vector dimension must be equal to the collection dimension.
+[2021-03-05 14:03:14,044][ERROR][SERVER][OnExecute][reqsched_thread] [insert][0] Invalid vector data: The vector dimension must be equal to the collection dimension.
+[2021-03-05 14:03:14,046][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30104): The vector dimension must be equal to the collection dimension.
+[2021-03-05 14:22:26,874][ERROR][SERVER][OnExecute][reqsched_thread] [search][0] Invalid vector data: The vector dimension must be equal to the collection dimension.
+[2021-03-05 14:22:26,877][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30104): The vector dimension must be equal to the collection dimension.
+[2021-03-05 14:58:24,952][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30101): Collection already exists
+[2021-03-05 14:58:39,724][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30101): Collection already exists
+[2021-03-05 15:43:35,421][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30101): Collection already exists
+[2021-03-05 15:52:20,431][ERROR][SERVER][OnExecute][reqsched_thread] [search][0] Collection imagesearch not found: Collection imagesearch not found
+[2021-03-05 15:52:20,433][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30100): Collection imagesearch does not exist. Use milvus.has_collection to verify whether the collection exists. You also can check whether the collection name exists.
+[2021-03-05 15:52:32,576][ERROR][SERVER][OnExecute][reqsched_thread] [search][0] Collection imagesearch not found: Collection imagesearch not found
+[2021-03-05 15:52:32,579][ERROR][SERVER][TakeToExecute][reqsched_thread] Request failed with code: Error code(30100): Collection imagesearch does not exist. Use milvus.has_collection to verify whether the collection exists. You also can check whether the collection name exists.

@@ -1,0 +1,1188 @@
+[2021-03-05 13:24:00,719][DEBUG][ENGINE][CheckCpuInstructionSet][milvus_server] Supported CPU instruction sets: avx2, sse4_2
+[2021-03-05 13:24:00,731][DEBUG][ENGINE][Initialize][milvus_server] FAISS hook AVX2
+[2021-03-05 13:24:00,850][DEBUG][WAL][Init][milvus_server] start_lsn 0 end_lsn 0
+[2021-03-05 13:25:09,324][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 0
+[2021-03-05 13:25:09,330][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.001181 ms])
+[2021-03-05 13:50:31,198][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 1
+[2021-03-05 13:50:31,215][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet, dimension=128): check validation (0.000018 second [0.018361 ms])
+[2021-03-05 13:50:31,237][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: resnet
+[2021-03-05 13:50:31,246][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet, dimension=128): totally cost (0.033062 second [33.062211 ms])
+[2021-03-05 13:50:57,436][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 2
+[2021-03-05 13:50:57,455][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=resnet): totally cost (0.006201 second [6.201111 ms])
+[2021-03-05 13:51:08,074][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 3
+[2021-03-05 13:51:08,079][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=resnet): totally cost (0.000422 second [0.422283 ms])
+[2021-03-05 13:55:02,724][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 4
+[2021-03-05 13:55:02,747][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=resnet, n=22, partition_tag=): check validation (0.000477 second [0.477226 ms])
+[2021-03-05 13:56:25,277][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 5
+[2021-03-05 13:56:25,318][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=resnet, n=22, partition_tag=): check validation (0.001272 second [1.272036 ms])
+[2021-03-05 13:57:07,555][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 6
+[2021-03-05 13:57:07,557][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet, dimension=2048): check validation (0.000003 second [0.002976 ms])
+[2021-03-05 13:57:07,564][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet, dimension=2048): totally cost (0.006494 second [6.494470 ms])
+[2021-03-05 13:57:19,993][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 7
+[2021-03-05 13:57:19,994][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000014 second [0.014336 ms])
+[2021-03-05 13:57:20,002][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 8
+[2021-03-05 13:57:20,004][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet, dimension=2048): check validation (0.000052 second [0.051542 ms])
+[2021-03-05 13:57:20,008][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet, dimension=2048): totally cost (0.004282 second [4.282309 ms])
+[2021-03-05 13:57:20,030][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 9
+[2021-03-05 13:57:20,033][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=resnet): totally cost (0.000305 second [0.304953 ms])
+[2021-03-05 13:57:32,803][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 10
+[2021-03-05 13:57:32,805][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000835 ms])
+[2021-03-05 13:57:32,812][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 11
+[2021-03-05 13:57:32,814][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet50, dimension=2048): check validation (0.000009 second [0.009218 ms])
+[2021-03-05 13:57:32,819][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: resnet50
+[2021-03-05 13:57:32,824][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet50, dimension=2048): totally cost (0.010131 second [10.130698 ms])
+[2021-03-05 13:57:32,835][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 12
+[2021-03-05 13:57:32,837][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=resnet): totally cost (0.000110 second [0.110064 ms])
+[2021-03-05 13:57:50,433][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 13
+[2021-03-05 13:57:50,434][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000885 ms])
+[2021-03-05 13:57:50,443][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 14
+[2021-03-05 13:57:50,445][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet50, dimension=2048): check validation (0.000005 second [0.004786 ms])
+[2021-03-05 13:57:50,448][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet50, dimension=2048): totally cost (0.003736 second [3.735583 ms])
+[2021-03-05 13:57:50,473][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 15
+[2021-03-05 13:57:50,476][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=resnet2048): totally cost (0.000936 second [0.936066 ms])
+[2021-03-05 13:58:21,598][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 16
+[2021-03-05 13:58:21,599][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000000 second [0.000409 ms])
+[2021-03-05 13:58:21,605][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 17
+[2021-03-05 13:58:21,607][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet50, dimension=2048): check validation (0.000002 second [0.002452 ms])
+[2021-03-05 13:58:21,609][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=resnet50, dimension=2048): totally cost (0.002351 second [2.351060 ms])
+[2021-03-05 13:58:21,629][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 18
+[2021-03-05 13:58:21,631][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=resnet50): totally cost (0.000123 second [0.123389 ms])
+[2021-03-05 13:58:38,272][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 19
+[2021-03-05 13:58:38,275][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=resnet, n=22, partition_tag=): check validation (0.000150 second [0.150016 ms])
+[2021-03-05 14:03:08,517][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 20
+[2021-03-05 14:03:08,519][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000601 ms])
+[2021-03-05 14:03:08,527][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 21
+[2021-03-05 14:03:08,528][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test1, dimension=2048): check validation (0.000003 second [0.003035 ms])
+[2021-03-05 14:03:08,533][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: test1
+[2021-03-05 14:03:08,538][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test1, dimension=2048): totally cost (0.009353 second [9.352908 ms])
+[2021-03-05 14:03:08,550][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 22
+[2021-03-05 14:03:08,553][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=test1): totally cost (0.000615 second [0.614705 ms])
+[2021-03-05 14:03:14,040][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 23
+[2021-03-05 14:03:14,044][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=resnet, n=22, partition_tag=): check validation (0.000419 second [0.418540 ms])
+[2021-03-05 14:04:28,326][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 24
+[2021-03-05 14:04:28,330][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): check validation (0.000158 second [0.158038 ms])
+[2021-03-05 14:04:28,331][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): prepare vectors data (0.001187 second [1.187276 ms])
+[2021-03-05 14:04:28,352][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = test1
+[2021-03-05 14:04:28,354][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): add vectors to engine (0.022382 second [22.382143 ms])
+[2021-03-05 14:04:28,355][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): total cost (0.025336 second [25.336322 ms])
+[2021-03-05 14:04:28,361][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614924268359275000
+[2021-03-05 14:04:28,370][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 14:04:29,173][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: test1
+[2021-03-05 14:04:29,195][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.016322 second [16.321701 ms])
+[2021-03-05 14:04:29,390][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.194945 second [194.944824 ms])
+[2021-03-05 14:04:29,390][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000598 second [0.597542 ms])
+[2021-03-05 14:04:29,391][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.213562 second [213.561535 ms])
+[2021-03-05 14:04:29,401][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.008544 second [8.543688 ms])
+[2021-03-05 14:04:29,410][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.008403 second [8.403367 ms])
+[2021-03-05 14:04:29,412][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.021430 second [21.429854 ms])
+[2021-03-05 14:04:29,436][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.023859 second [23.859251 ms])
+[2021-03-05 14:04:29,436][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614924268359275000 of size 180224 bytes, lsn = 180426
+[2021-03-05 14:04:29,437][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614924268359275000
+[2021-03-05 14:04:29,458][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 14:04:29,460][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = test1 flush_lsn = 180426
+[2021-03-05 14:04:29,461][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection test1: Finished flushing (0.284853 second [284.852955 ms])
+[2021-03-05 14:04:29,462][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: test1
+[2021-03-05 14:04:29,463][DEBUG][ENGINE][SetGlobalLastLSN][wal_thread] Update global lsn = 180426
+[2021-03-05 14:05:54,205][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 25
+[2021-03-05 14:05:54,209][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: test1, 
+[2021-03-05 14:05:54,213][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: test1
+[2021-03-05 14:05:54,214][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 14:05:54,223][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: test1
+[2021-03-05 14:05:54,224][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: test1, : totally cost (0.014678 second [14.678261 ms])
+[2021-03-05 14:05:54,228][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 26
+[2021-03-05 14:05:54,233][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test1): check validation (0.000438 second [0.438266 ms])
+[2021-03-05 14:05:54,237][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test1): totally cost (0.004185 second [4.185259 ms])
+[2021-03-05 14:05:54,241][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 27
+[2021-03-05 14:05:54,247][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924268359275000 refcount:1
+[2021-03-05 14:05:54,248][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 14:05:54,251][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924268359275000 refcount:0
+[2021-03-05 14:05:54,253][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=test1): totally cost (0.008044 second [8.043724 ms])
+[2021-03-05 14:07:10,426][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 28
+[2021-03-05 14:07:10,431][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): check validation (0.000202 second [0.202114 ms])
+[2021-03-05 14:07:10,431][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): prepare vectors data (0.000730 second [0.730046 ms])
+[2021-03-05 14:07:10,440][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = test1
+[2021-03-05 14:07:10,442][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): add vectors to engine (0.009589 second [9.588928 ms])
+[2021-03-05 14:07:10,443][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test1, n=22, partition_tag=): total cost (0.012603 second [12.602525 ms])
+[2021-03-05 14:07:10,444][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614924430442713000
+[2021-03-05 14:07:10,451][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 14:07:10,976][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: test1
+[2021-03-05 14:07:10,991][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.013437 second [13.437407 ms])
+[2021-03-05 14:07:11,112][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.121840 second [121.839584 ms])
+[2021-03-05 14:07:11,113][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000791 second [0.791271 ms])
+[2021-03-05 14:07:11,114][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.136678 second [136.678098 ms])
+[2021-03-05 14:07:11,120][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.004748 second [4.747685 ms])
+[2021-03-05 14:07:11,123][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.003337 second [3.336796 ms])
+[2021-03-05 14:07:11,125][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.011401 second [11.400831 ms])
+[2021-03-05 14:07:11,131][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.006062 second [6.061556 ms])
+[2021-03-05 14:07:11,132][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614924430442713000 of size 180224 bytes, lsn = 360852
+[2021-03-05 14:07:11,132][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614924430442713000
+[2021-03-05 14:07:11,143][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 14:07:11,160][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = test1 flush_lsn = 360852
+[2021-03-05 14:07:11,161][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection test1: Finished flushing (0.183648 second [183.648254 ms])
+[2021-03-05 14:07:11,161][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: test1
+[2021-03-05 14:07:11,162][DEBUG][ENGINE][SetGlobalLastLSN][wal_thread] Update global lsn = 360852
+[2021-03-05 14:07:11,164][DEBUG][ENGINE][FilesToMerge][milvus_server] Collect 2 to-merge files in collection test1
+[2021-03-05 14:07:11,165][DEBUG][ENGINE][MarkOngoingFileNoLock][milvus_server] Mark ongoing file:1614924268359275000 refcount:1
+[2021-03-05 14:07:11,165][DEBUG][ENGINE][MarkOngoingFileNoLock][milvus_server] Mark ongoing file:1614924430442713000 refcount:1
+[2021-03-05 14:07:11,172][DEBUG][ENGINE][CreateCollectionFile][milvus_server] Successfully create collection file, file id = 1614924431171826000
+[2021-03-05 14:07:11,176][DEBUG][ENGINE][Merge][milvus_server] Merging from /var/lib/milvus/db/tables/test1/1614924430442713000 to /var/lib/milvus/db/tables/test1/1614924431171826000
+[2021-03-05 14:07:11,190][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Loading segment (0.013236 second [13.235544 ms])
+[2021-03-05 14:07:11,190][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: erase (0.000441 second [0.440622 ms])
+[2021-03-05 14:07:11,190][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Adding 22 vectors and uids (0.000485 second [0.484731 ms])
+[2021-03-05 14:07:11,191][DEBUG][ENGINE][Merge][milvus_server] Merging completed from /var/lib/milvus/db/tables/test1/1614924430442713000 to /var/lib/milvus/db/tables/test1/1614924431171826000
+[2021-03-05 14:07:11,191][DEBUG][ENGINE][Merge][milvus_server] Merging from /var/lib/milvus/db/tables/test1/1614924268359275000 to /var/lib/milvus/db/tables/test1/1614924431171826000
+[2021-03-05 14:07:11,201][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Loading segment (0.009271 second [9.271072 ms])
+[2021-03-05 14:07:11,202][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: erase (0.000656 second [0.655948 ms])
+[2021-03-05 14:07:11,202][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Adding 22 vectors and uids (0.000600 second [0.599921 ms])
+[2021-03-05 14:07:11,203][DEBUG][ENGINE][Merge][milvus_server] Merging completed from /var/lib/milvus/db/tables/test1/1614924268359275000 to /var/lib/milvus/db/tables/test1/1614924431171826000
+[2021-03-05 14:07:11,203][DEBUG][ENGINE][Execute][milvus_server] Merge task files size info:180400, 180400, 
+[2021-03-05 14:07:11,208][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.004220 second [4.220302 ms])
+[2021-03-05 14:07:11,235][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Adding 44 ids to bloom filter (0.027521 second [27.521158 ms])
+[2021-03-05 14:07:11,236][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000687 second [0.687117 ms])
+[2021-03-05 14:07:11,237][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing bloom filter done (0.033076 second [33.076455 ms])
+[2021-03-05 14:07:11,244][DEBUG][SERVER][PrintTimeRecord][milvus_server] write vectors: write rv done (0.006177 second [6.177081 ms])
+[2021-03-05 14:07:11,247][DEBUG][SERVER][PrintTimeRecord][milvus_server] write vectors: write uids done (0.002764 second [2.763679 ms])
+[2021-03-05 14:07:11,248][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing vectors and uids done (0.011354 second [11.354185 ms])
+[2021-03-05 14:07:11,252][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing deleted docs done (0.004403 second [4.403115 ms])
+[2021-03-05 14:07:11,254][DEBUG][ENGINE][UpdateCollectionFiles][milvus_server] Update 3 collection files
+[2021-03-05 14:07:11,255][DEBUG][ENGINE][Execute][milvus_server] New merged segment 1614924431171826000 of size 360800 bytes
+[2021-03-05 14:07:11,259][DEBUG][ENGINE][UnmarkOngoingFileNoLock][milvus_server] Unmark ongoing file:1614924430442713000 refcount:0
+[2021-03-05 14:07:11,266][DEBUG][ENGINE][UnmarkOngoingFileNoLock][milvus_server] Unmark ongoing file:1614924268359275000 refcount:0
+[2021-03-05 14:07:17,088][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 29
+[2021-03-05 14:07:17,090][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: test1, 
+[2021-03-05 14:07:17,091][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: test1
+[2021-03-05 14:07:17,092][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 14:07:17,097][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: test1
+[2021-03-05 14:07:17,098][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: test1, : totally cost (0.007828 second [7.827955 ms])
+[2021-03-05 14:07:17,102][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 30
+[2021-03-05 14:07:17,104][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test1): check validation (0.000182 second [0.181993 ms])
+[2021-03-05 14:07:17,105][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test1): totally cost (0.001292 second [1.291689 ms])
+[2021-03-05 14:07:17,108][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 31
+[2021-03-05 14:07:17,112][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924431171826000 refcount:1
+[2021-03-05 14:07:17,113][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 14:07:17,114][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924431171826000 refcount:0
+[2021-03-05 14:07:17,115][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=test1): totally cost (0.003785 second [3.784757 ms])
+[2021-03-05 14:07:22,214][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614924268359275000 location:/var/lib/milvus/db/tables/test1/1614924268359275000/1614924268359275000
+[2021-03-05 14:07:22,217][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614924430442713000 location:/var/lib/milvus/db/tables/test1/1614924430442713000/1614924430442713000
+[2021-03-05 14:07:22,222][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 2 files expired in 10 seconds
+[2021-03-05 14:07:22,245][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/test1/1614924268359275000
+[2021-03-05 14:07:22,260][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/test1/1614924430442713000
+[2021-03-05 14:07:22,261][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 2 segments folder
+[2021-03-05 14:07:37,535][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 32
+[2021-03-05 14:07:37,547][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=test1): totally cost (0.001480 second [1.480203 ms])
+[2021-03-05 14:07:37,551][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test1, nq=22, k=10): check validation (0.000320 second [0.320138 ms])
+[2021-03-05 14:07:37,553][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924431171826000 refcount:1
+[2021-03-05 14:07:37,554][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection test1
+[2021-03-05 14:07:37,555][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: test1
+[2021-03-05 14:07:37,556][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 0, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:07:37,556][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 14:07:37,558][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 0 add index file: 3
+[2021-03-05 14:07:37,563][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 14:07:37,568][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:07:37,574][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 14:07:37,581][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:07:37,592][DEBUG][ENGINE][Load][taskloader_th] set uids 44 for index /var/lib/milvus/db/tables/test1/1614924431171826000/1614924431171826000
+[2021-03-05 14:07:37,594][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/test1/1614924431171826000
+[2021-03-05 14:07:37,596][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/test1/1614924431171826000/1614924431171826000 size: 0MB into cache
+[2021-03-05 14:07:37,597][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 14:07:37,597][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:3 DISK2CPU file type:1 size:360806 bytes from location: /var/lib/milvus/db/tables/test1/1614924431171826000/1614924431171826000 totally cost (0.016845 second [16.844525 ms])
+[2021-03-05 14:07:37,599][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000004 second [0.004474 ms])
+[2021-03-05 14:07:37,606][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.006322 second [6.321746 ms])
+[2021-03-05 14:07:37,606][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 44 uids from index /var/lib/milvus/db/tables/test1/1614924431171826000/1614924431171826000
+[2021-03-05 14:07:37,608][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 220 (0.001908 second [1.907784 ms])
+[2021-03-05 14:07:37,608][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 0 finish index file: 3
+[2021-03-05 14:07:37,608][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:3: totally cost (0.009096 second [9.095987 ms])
+[2021-03-05 14:07:37,609][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 0 all done
+[2021-03-05 14:07:37,610][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924431171826000 refcount:0
+[2021-03-05 14:07:37,610][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.054102 second [54.101936 ms])
+[2021-03-05 14:07:37,611][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:07:37,611][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test1, nq=22, k=10): query vectors from engine (0.061070 second [61.069888 ms])
+[2021-03-05 14:07:37,611][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test1, nq=22, k=10): construct result (0.000357 second [0.357084 ms])
+[2021-03-05 14:07:37,612][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test1, nq=22, k=10): totally cost (0.062052 second [62.052098 ms])
+[2021-03-05 14:11:29,685][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 33
+[2021-03-05 14:11:29,688][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.001375 ms])
+[2021-03-05 14:11:30,667][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 34
+[2021-03-05 14:11:30,671][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test2, dimension=2048): check validation (0.000094 second [0.093955 ms])
+[2021-03-05 14:11:30,681][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: test2
+[2021-03-05 14:11:30,691][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test2, dimension=2048): totally cost (0.019373 second [19.372865 ms])
+[2021-03-05 14:11:38,469][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 35
+[2021-03-05 14:11:38,473][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=test2): totally cost (0.000208 second [0.208456 ms])
+[2021-03-05 14:11:44,860][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 36
+[2021-03-05 14:11:44,862][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): check validation (0.000281 second [0.280867 ms])
+[2021-03-05 14:11:44,863][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): prepare vectors data (0.000768 second [0.767997 ms])
+[2021-03-05 14:11:44,871][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = test2
+[2021-03-05 14:11:44,871][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): add vectors to engine (0.008150 second [8.150296 ms])
+[2021-03-05 14:11:44,872][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): total cost (0.009689 second [9.689134 ms])
+[2021-03-05 14:11:44,873][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614924704872016000
+[2021-03-05 14:11:44,877][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 14:11:45,263][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: test2
+[2021-03-05 14:11:45,276][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.010033 second [10.032815 ms])
+[2021-03-05 14:11:45,309][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.033184 second [33.183742 ms])
+[2021-03-05 14:11:45,309][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000448 second [0.448184 ms])
+[2021-03-05 14:11:45,310][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.044159 second [44.158729 ms])
+[2021-03-05 14:11:45,314][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.003584 second [3.584329 ms])
+[2021-03-05 14:11:45,317][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.002450 second [2.449998 ms])
+[2021-03-05 14:11:45,318][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.008022 second [8.021684 ms])
+[2021-03-05 14:11:45,321][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.003561 second [3.560686 ms])
+[2021-03-05 14:11:45,322][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614924704872016000 of size 180224 bytes, lsn = 541278
+[2021-03-05 14:11:45,322][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614924704872016000
+[2021-03-05 14:11:45,334][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 14:11:45,346][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = test2 flush_lsn = 541278
+[2021-03-05 14:11:45,349][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection test2: Finished flushing (0.083205 second [83.204828 ms])
+[2021-03-05 14:11:45,352][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: test2
+[2021-03-05 14:11:45,357][DEBUG][ENGINE][SetGlobalLastLSN][wal_thread] Update global lsn = 541278
+[2021-03-05 14:11:45,951][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 37
+[2021-03-05 14:11:45,956][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: test2, 
+[2021-03-05 14:11:45,957][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: test2
+[2021-03-05 14:11:45,958][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 14:11:45,960][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: test2
+[2021-03-05 14:11:45,961][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: test2, : totally cost (0.004564 second [4.564344 ms])
+[2021-03-05 14:11:45,963][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 38
+[2021-03-05 14:11:45,966][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test2): check validation (0.000157 second [0.156974 ms])
+[2021-03-05 14:11:45,967][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test2): totally cost (0.001883 second [1.882968 ms])
+[2021-03-05 14:11:45,970][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 39
+[2021-03-05 14:11:45,974][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924704872016000 refcount:1
+[2021-03-05 14:11:45,975][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 14:11:45,976][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924704872016000 refcount:0
+[2021-03-05 14:11:45,976][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=test2): totally cost (0.002838 second [2.837755 ms])
+[2021-03-05 14:22:26,866][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 40
+[2021-03-05 14:22:26,871][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=test2): totally cost (0.000139 second [0.138701 ms])
+[2021-03-05 14:22:26,876][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=2048, k=10): totally cost (0.001410 second [1.409634 ms])
+[2021-03-05 14:22:43,197][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 41
+[2021-03-05 14:22:43,204][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=test2): totally cost (0.000010 second [0.009698 ms])
+[2021-03-05 14:22:43,207][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): check validation (0.000374 second [0.373724 ms])
+[2021-03-05 14:22:43,210][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924704872016000 refcount:1
+[2021-03-05 14:22:43,211][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection test2
+[2021-03-05 14:22:43,212][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: test2
+[2021-03-05 14:22:43,213][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:22:43,214][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 14:22:43,215][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 1 add index file: 4
+[2021-03-05 14:22:43,218][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 14:22:43,219][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:22:43,220][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 14:22:43,221][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:22:43,248][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000
+[2021-03-05 14:22:43,249][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/test2/1614924704872016000
+[2021-03-05 14:22:43,250][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000 size: 0MB into cache
+[2021-03-05 14:22:43,251][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 14:22:43,251][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:4 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000 totally cost (0.029887 second [29.887111 ms])
+[2021-03-05 14:22:43,252][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000011 second [0.010957 ms])
+[2021-03-05 14:22:43,265][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.013333 second [13.333095 ms])
+[2021-03-05 14:22:43,266][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000
+[2021-03-05 14:22:43,266][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.001315 second [1.314929 ms])
+[2021-03-05 14:22:43,267][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 1 finish index file: 4
+[2021-03-05 14:22:43,268][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:4: totally cost (0.016001 second [16.001255 ms])
+[2021-03-05 14:22:43,268][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 1 all done
+[2021-03-05 14:22:43,269][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924704872016000 refcount:0
+[2021-03-05 14:22:43,270][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.056319 second [56.319274 ms])
+[2021-03-05 14:22:43,270][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:22:43,271][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): query vectors from engine (0.063740 second [63.740296 ms])
+[2021-03-05 14:22:43,271][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): construct result (0.000496 second [0.495805 ms])
+[2021-03-05 14:22:43,272][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): totally cost (0.065028 second [65.027892 ms])
+[2021-03-05 14:23:23,374][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 42
+[2021-03-05 14:23:23,378][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=test2): totally cost (0.000011 second [0.011206 ms])
+[2021-03-05 14:23:23,381][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): check validation (0.000230 second [0.229766 ms])
+[2021-03-05 14:23:23,382][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924704872016000 refcount:1
+[2021-03-05 14:23:23,383][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection test2
+[2021-03-05 14:23:23,386][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: test2
+[2021-03-05 14:23:23,387][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:23:23,388][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 14:23:23,389][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 2 add index file: 4
+[2021-03-05 14:23:23,392][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 14:23:23,393][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:23:23,394][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 14:23:23,396][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:4 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000 totally cost (0.000014 second [0.014168 ms])
+[2021-03-05 14:23:23,397][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000006 second [0.005862 ms])
+[2021-03-05 14:23:23,401][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.004628 second [4.627669 ms])
+[2021-03-05 14:23:23,403][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000
+[2021-03-05 14:23:23,404][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.002799 second [2.798806 ms])
+[2021-03-05 14:23:23,407][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 2 finish index file: 4
+[2021-03-05 14:23:23,408][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 2 all done
+[2021-03-05 14:23:23,409][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924704872016000 refcount:0
+[2021-03-05 14:23:23,410][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.022171 second [22.170805 ms])
+[2021-03-05 14:23:23,412][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:23:23,413][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:4: totally cost (0.010830 second [10.829910 ms])
+[2021-03-05 14:23:23,414][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): query vectors from engine (0.031997 second [31.997250 ms])
+[2021-03-05 14:23:23,415][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): construct result (0.001997 second [1.996552 ms])
+[2021-03-05 14:23:23,416][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): totally cost (0.035426 second [35.425795 ms])
+[2021-03-05 14:58:24,935][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 43
+[2021-03-05 14:58:24,937][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000863 ms])
+[2021-03-05 14:58:24,947][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 44
+[2021-03-05 14:58:24,949][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test2, dimension=2048): check validation (0.000016 second [0.016189 ms])
+[2021-03-05 14:58:24,952][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test2, dimension=2048): totally cost (0.002464 second [2.463560 ms])
+[2021-03-05 14:58:24,974][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 45
+[2021-03-05 14:58:24,978][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=test2): totally cost (0.000751 second [0.750963 ms])
+[2021-03-05 14:58:39,708][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 46
+[2021-03-05 14:58:39,710][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000956 ms])
+[2021-03-05 14:58:39,718][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 47
+[2021-03-05 14:58:39,720][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test2, dimension=2048): check validation (0.000006 second [0.005781 ms])
+[2021-03-05 14:58:39,723][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=test2, dimension=2048): totally cost (0.003286 second [3.285549 ms])
+[2021-03-05 14:58:39,749][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 48
+[2021-03-05 14:58:39,752][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=test2): totally cost (0.000188 second [0.187957 ms])
+[2021-03-05 14:58:46,865][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 49
+[2021-03-05 14:58:46,867][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): check validation (0.000185 second [0.184664 ms])
+[2021-03-05 14:58:46,868][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): prepare vectors data (0.000783 second [0.782503 ms])
+[2021-03-05 14:58:46,886][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = test2
+[2021-03-05 14:58:46,890][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): add vectors to engine (0.022082 second [22.081775 ms])
+[2021-03-05 14:58:46,891][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=test2, n=22, partition_tag=): total cost (0.023606 second [23.605686 ms])
+[2021-03-05 14:58:46,895][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614927526893198000
+[2021-03-05 14:58:46,900][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 14:58:46,921][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 50
+[2021-03-05 14:58:46,922][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: test2, 
+[2021-03-05 14:58:46,924][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: test2
+[2021-03-05 14:58:46,924][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 14:58:46,926][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: test2
+[2021-03-05 14:58:46,931][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.004658 second [4.657817 ms])
+[2021-03-05 14:58:46,972][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.041268 second [41.268241 ms])
+[2021-03-05 14:58:46,973][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000602 second [0.601776 ms])
+[2021-03-05 14:58:46,973][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.047044 second [47.044218 ms])
+[2021-03-05 14:58:46,978][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.003169 second [3.169184 ms])
+[2021-03-05 14:58:46,980][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.002160 second [2.160319 ms])
+[2021-03-05 14:58:46,981][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.007276 second [7.275759 ms])
+[2021-03-05 14:58:46,984][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.003385 second [3.385247 ms])
+[2021-03-05 14:58:46,985][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614927526893198000 of size 180224 bytes, lsn = 721704
+[2021-03-05 14:58:46,985][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614927526893198000
+[2021-03-05 14:58:47,002][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 14:58:47,025][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = test2 flush_lsn = 721704
+[2021-03-05 14:58:47,026][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection test2: Finished flushing (0.099907 second [99.907093 ms])
+[2021-03-05 14:58:47,027][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: test2
+[2021-03-05 14:58:47,029][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: test2
+[2021-03-05 14:58:47,029][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: test2, : totally cost (0.107418 second [107.417984 ms])
+[2021-03-05 14:58:47,032][DEBUG][ENGINE][FilesToMerge][milvus_server] Collect 2 to-merge files in collection test2
+[2021-03-05 14:58:47,032][DEBUG][ENGINE][MarkOngoingFileNoLock][milvus_server] Mark ongoing file:1614924704872016000 refcount:1
+[2021-03-05 14:58:47,033][DEBUG][ENGINE][MarkOngoingFileNoLock][milvus_server] Mark ongoing file:1614927526893198000 refcount:1
+[2021-03-05 14:58:47,036][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 51
+[2021-03-05 14:58:47,037][DEBUG][ENGINE][CreateCollectionFile][milvus_server] Successfully create collection file, file id = 1614927527034553000
+[2021-03-05 14:58:47,041][DEBUG][ENGINE][Merge][milvus_server] Merging from /var/lib/milvus/db/tables/test2/1614927526893198000 to /var/lib/milvus/db/tables/test2/1614927527034553000
+[2021-03-05 14:58:47,041][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test2): check validation (0.004017 second [4.016921 ms])
+[2021-03-05 14:58:47,042][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=test2): totally cost (0.005130 second [5.129994 ms])
+[2021-03-05 14:58:47,044][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 52
+[2021-03-05 14:58:47,047][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924704872016000 refcount:2
+[2021-03-05 14:58:47,048][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927526893198000 refcount:2
+[2021-03-05 14:58:47,048][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:2 to_index files:0 index files:0
+[2021-03-05 14:58:47,049][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924704872016000 refcount:1
+[2021-03-05 14:58:47,049][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927526893198000 refcount:1
+[2021-03-05 14:58:47,050][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=test2): totally cost (0.003429 second [3.429355 ms])
+[2021-03-05 14:58:47,051][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Loading segment (0.010103 second [10.103403 ms])
+[2021-03-05 14:58:47,052][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: erase (0.000517 second [0.517206 ms])
+[2021-03-05 14:58:47,055][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Adding 22 vectors and uids (0.002781 second [2.780928 ms])
+[2021-03-05 14:58:47,055][DEBUG][ENGINE][Merge][milvus_server] Merging completed from /var/lib/milvus/db/tables/test2/1614927526893198000 to /var/lib/milvus/db/tables/test2/1614927527034553000
+[2021-03-05 14:58:47,057][DEBUG][ENGINE][Merge][milvus_server] Merging from /var/lib/milvus/db/tables/test2/1614924704872016000 to /var/lib/milvus/db/tables/test2/1614927527034553000
+[2021-03-05 14:58:47,060][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 53
+[2021-03-05 14:58:47,066][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=test2): totally cost (0.000056 second [0.056440 ms])
+[2021-03-05 14:58:47,067][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Loading segment (0.003271 second [3.271022 ms])
+[2021-03-05 14:58:47,068][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: erase (0.006695 second [6.694602 ms])
+[2021-03-05 14:58:47,070][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Adding 22 vectors and uids (0.001419 second [1.418855 ms])
+[2021-03-05 14:58:47,071][DEBUG][ENGINE][Merge][milvus_server] Merging completed from /var/lib/milvus/db/tables/test2/1614924704872016000 to /var/lib/milvus/db/tables/test2/1614927527034553000
+[2021-03-05 14:58:47,071][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): check validation (0.000220 second [0.219862 ms])
+[2021-03-05 14:58:47,072][DEBUG][ENGINE][Execute][milvus_server] Merge task files size info:180400, 180400, 
+[2021-03-05 14:58:47,073][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614924704872016000 refcount:2
+[2021-03-05 14:58:47,073][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927526893198000 refcount:2
+[2021-03-05 14:58:47,074][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 2 to-search files in collection test2
+[2021-03-05 14:58:47,075][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: test2
+[2021-03-05 14:58:47,076][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:58:47,077][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 2
+[2021-03-05 14:58:47,078][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 3 add index file: 4
+[2021-03-05 14:58:47,078][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 3 add index file: 5
+[2021-03-05 14:58:47,081][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 14:58:47,081][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:58:47,082][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 14:58:47,083][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:58:47,083][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 14:58:47,084][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 14:58:47,085][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.007274 second [7.274452 ms])
+[2021-03-05 14:58:47,086][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 14:58:47,091][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/test2/1614927526893198000/1614927526893198000
+[2021-03-05 14:58:47,093][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/test2/1614927526893198000
+[2021-03-05 14:58:47,094][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/test2/1614927526893198000/1614927526893198000 size: 0MB into cache
+[2021-03-05 14:58:47,094][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 3, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 14:58:47,095][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:5 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/test2/1614927526893198000/1614927526893198000 totally cost (0.009807 second [9.806532 ms])
+[2021-03-05 14:58:47,097][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:4 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000 totally cost (0.000010 second [0.009825 ms])
+[2021-03-05 14:58:47,098][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000005 second [0.004557 ms])
+[2021-03-05 14:58:47,107][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.009138 second [9.138220 ms])
+[2021-03-05 14:58:47,108][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/test2/1614927526893198000/1614927526893198000
+[2021-03-05 14:58:47,109][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.002686 second [2.686391 ms])
+[2021-03-05 14:58:47,111][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 3 finish index file: 5
+[2021-03-05 14:58:47,112][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:5: totally cost (0.014292 second [14.291905 ms])
+[2021-03-05 14:58:47,115][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000006 second [0.005767 ms])
+[2021-03-05 14:58:47,134][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Adding 44 ids to bloom filter (0.054141 second [54.140997 ms])
+[2021-03-05 14:58:47,135][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.019568 second [19.568180 ms])
+[2021-03-05 14:58:47,135][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000
+[2021-03-05 14:58:47,136][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.001191 second [1.191325 ms])
+[2021-03-05 14:58:47,136][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 3 finish index file: 4
+[2021-03-05 14:58:47,137][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 3 all done
+[2021-03-05 14:58:47,138][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614924704872016000 refcount:1
+[2021-03-05 14:58:47,140][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927526893198000 refcount:1
+[2021-03-05 14:58:47,141][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.063728 second [63.727615 ms])
+[2021-03-05 14:58:47,141][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 3, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 14:58:47,142][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): query vectors from engine (0.071896 second [71.896148 ms])
+[2021-03-05 14:58:47,142][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000711 second [0.711368 ms])
+[2021-03-05 14:58:47,143][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing bloom filter done (0.070196 second [70.196412 ms])
+[2021-03-05 14:58:47,143][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): construct result (0.000575 second [0.575416 ms])
+[2021-03-05 14:58:47,144][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=test2, nq=1, k=10): totally cost (0.074713 second [74.713486 ms])
+[2021-03-05 14:58:47,145][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:4: totally cost (0.023695 second [23.695304 ms])
+[2021-03-05 14:58:47,149][DEBUG][SERVER][PrintTimeRecord][milvus_server] write vectors: write rv done (0.004862 second [4.861958 ms])
+[2021-03-05 14:58:47,154][DEBUG][SERVER][PrintTimeRecord][milvus_server] write vectors: write uids done (0.004547 second [4.547357 ms])
+[2021-03-05 14:58:47,160][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing vectors and uids done (0.017124 second [17.124406 ms])
+[2021-03-05 14:58:47,166][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing deleted docs done (0.006370 second [6.370053 ms])
+[2021-03-05 14:58:47,169][DEBUG][ENGINE][UpdateCollectionFiles][milvus_server] Update 3 collection files
+[2021-03-05 14:58:47,169][DEBUG][ENGINE][Execute][milvus_server] New merged segment 1614927527034553000 of size 360800 bytes
+[2021-03-05 14:58:47,173][DEBUG][ENGINE][UnmarkOngoingFileNoLock][milvus_server] Unmark ongoing file:1614927526893198000 refcount:0
+[2021-03-05 14:58:47,186][DEBUG][ENGINE][UnmarkOngoingFileNoLock][milvus_server] Unmark ongoing file:1614924704872016000 refcount:0
+[2021-03-05 14:58:57,268][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000 size: 0MB from cache
+[2021-03-05 14:58:57,269][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 14:58:57,270][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614924704872016000 location:/var/lib/milvus/db/tables/test2/1614924704872016000/1614924704872016000
+[2021-03-05 14:58:57,272][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/test2/1614927526893198000/1614927526893198000 size: 0MB from cache
+[2021-03-05 14:58:57,273][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 14:58:57,274][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614927526893198000 location:/var/lib/milvus/db/tables/test2/1614927526893198000/1614927526893198000
+[2021-03-05 14:58:57,277][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 2 files expired in 10 seconds
+[2021-03-05 14:58:57,295][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/test2/1614924704872016000
+[2021-03-05 14:58:57,307][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/test2/1614927526893198000
+[2021-03-05 14:58:57,308][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 2 segments folder
+[2021-03-05 15:00:05,952][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 54
+[2021-03-05 15:00:05,954][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000000 second [0.000485 ms])
+[2021-03-05 15:00:05,962][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 55
+[2021-03-05 15:00:05,963][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): check validation (0.000004 second [0.003527 ms])
+[2021-03-05 15:00:05,969][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: imagesearch
+[2021-03-05 15:00:05,975][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): totally cost (0.011685 second [11.685453 ms])
+[2021-03-05 15:00:05,986][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 56
+[2021-03-05 15:00:05,988][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=imagesearch): totally cost (0.000166 second [0.165594 ms])
+[2021-03-05 15:00:12,644][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 57
+[2021-03-05 15:00:12,647][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): check validation (0.000157 second [0.157412 ms])
+[2021-03-05 15:00:12,648][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): prepare vectors data (0.000562 second [0.561843 ms])
+[2021-03-05 15:00:12,654][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = imagesearch
+[2021-03-05 15:00:12,655][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): add vectors to engine (0.007290 second [7.290447 ms])
+[2021-03-05 15:00:12,656][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): total cost (0.008845 second [8.844520 ms])
+[2021-03-05 15:00:12,657][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614927612655811000
+[2021-03-05 15:00:12,661][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 15:00:12,689][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 58
+[2021-03-05 15:00:12,690][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: imagesearch, 
+[2021-03-05 15:00:12,691][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: imagesearch
+[2021-03-05 15:00:12,692][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:00:12,695][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: imagesearch
+[2021-03-05 15:00:12,702][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.005731 second [5.731400 ms])
+[2021-03-05 15:00:12,732][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.031019 second [31.019111 ms])
+[2021-03-05 15:00:12,733][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000635 second [0.634959 ms])
+[2021-03-05 15:00:12,734][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.037963 second [37.962575 ms])
+[2021-03-05 15:00:12,737][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.002826 second [2.826111 ms])
+[2021-03-05 15:00:12,740][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.002555 second [2.555445 ms])
+[2021-03-05 15:00:12,741][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.007497 second [7.496868 ms])
+[2021-03-05 15:00:12,745][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.004409 second [4.408646 ms])
+[2021-03-05 15:00:12,746][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614927612655811000 of size 180224 bytes, lsn = 902136
+[2021-03-05 15:00:12,747][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614927612655811000
+[2021-03-05 15:00:12,759][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 15:00:12,763][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = imagesearch flush_lsn = 902136
+[2021-03-05 15:00:12,764][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection imagesearch: Finished flushing (0.067944 second [67.944338 ms])
+[2021-03-05 15:00:12,764][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: imagesearch
+[2021-03-05 15:00:12,766][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: imagesearch
+[2021-03-05 15:00:12,767][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: imagesearch, : totally cost (0.076763 second [76.762769 ms])
+[2021-03-05 15:00:12,769][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 59
+[2021-03-05 15:00:12,771][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): check validation (0.000104 second [0.104028 ms])
+[2021-03-05 15:00:12,771][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): totally cost (0.000685 second [0.685449 ms])
+[2021-03-05 15:00:12,774][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 60
+[2021-03-05 15:00:12,776][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927612655811000 refcount:1
+[2021-03-05 15:00:12,776][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 15:00:12,776][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927612655811000 refcount:0
+[2021-03-05 15:00:12,777][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=imagesearch): totally cost (0.001618 second [1.618474 ms])
+[2021-03-05 15:00:12,786][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 61
+[2021-03-05 15:00:12,796][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000011 second [0.011187 ms])
+[2021-03-05 15:00:12,800][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): check validation (0.000241 second [0.240546 ms])
+[2021-03-05 15:00:12,802][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927612655811000 refcount:1
+[2021-03-05 15:00:12,803][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 15:00:12,804][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:00:12,805][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:00:12,806][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 15:00:12,807][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 4 add index file: 7
+[2021-03-05 15:00:12,809][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:00:12,810][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:00:12,810][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:00:12,811][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:00:12,827][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000
+[2021-03-05 15:00:12,827][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/imagesearch/1614927612655811000
+[2021-03-05 15:00:12,828][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000 size: 0MB into cache
+[2021-03-05 15:00:12,829][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:00:12,830][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000 totally cost (0.018352 second [18.351625 ms])
+[2021-03-05 15:00:12,831][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000004 second [0.004055 ms])
+[2021-03-05 15:00:12,843][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.012863 second [12.863096 ms])
+[2021-03-05 15:00:12,844][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000
+[2021-03-05 15:00:12,845][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.001429 second [1.428792 ms])
+[2021-03-05 15:00:12,846][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 4 finish index file: 7
+[2021-03-05 15:00:12,846][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.015881 second [15.881341 ms])
+[2021-03-05 15:00:12,847][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 4 all done
+[2021-03-05 15:00:12,848][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927612655811000 refcount:0
+[2021-03-05 15:00:12,849][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.043098 second [43.097756 ms])
+[2021-03-05 15:00:12,850][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:00:12,850][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): query vectors from engine (0.050110 second [50.109852 ms])
+[2021-03-05 15:00:12,851][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): construct result (0.000707 second [0.707073 ms])
+[2021-03-05 15:00:12,852][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): totally cost (0.051899 second [51.899311 ms])
+[2021-03-05 15:21:14,025][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 62
+[2021-03-05 15:21:14,030][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000012 second [0.012161 ms])
+[2021-03-05 15:21:14,033][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): check validation (0.000204 second [0.204086 ms])
+[2021-03-05 15:21:14,036][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927612655811000 refcount:1
+[2021-03-05 15:21:14,037][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 15:21:14,038][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:21:14,039][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:21:14,040][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 15:21:14,041][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 5 add index file: 7
+[2021-03-05 15:21:14,043][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:21:14,044][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:21:14,046][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:21:14,048][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000 totally cost (0.000013 second [0.013055 ms])
+[2021-03-05 15:21:14,049][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000007 second [0.006549 ms])
+[2021-03-05 15:21:14,088][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.039391 second [39.391356 ms])
+[2021-03-05 15:21:14,094][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000
+[2021-03-05 15:21:14,095][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.007038 second [7.037721 ms])
+[2021-03-05 15:21:14,096][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 5 finish index file: 7
+[2021-03-05 15:21:14,096][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.047631 second [47.631150 ms])
+[2021-03-05 15:21:14,097][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 5 all done
+[2021-03-05 15:21:14,099][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927612655811000 refcount:0
+[2021-03-05 15:21:14,099][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.058793 second [58.792803 ms])
+[2021-03-05 15:21:14,100][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:21:14,100][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): query vectors from engine (0.067718 second [67.718478 ms])
+[2021-03-05 15:21:14,101][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): construct result (0.000391 second [0.390819 ms])
+[2021-03-05 15:21:14,101][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): totally cost (0.068710 second [68.709628 ms])
+[2021-03-05 15:21:54,973][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 63
+[2021-03-05 15:21:54,978][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000010 second [0.009781 ms])
+[2021-03-05 15:21:54,981][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): check validation (0.000257 second [0.256651 ms])
+[2021-03-05 15:21:54,982][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927612655811000 refcount:1
+[2021-03-05 15:21:54,983][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 15:21:54,984][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:21:54,986][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:21:54,987][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 15:21:54,988][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 6 add index file: 7
+[2021-03-05 15:21:54,990][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:21:54,991][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:21:54,992][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:21:54,993][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000 totally cost (0.000015 second [0.015334 ms])
+[2021-03-05 15:21:54,995][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000049 second [0.048753 ms])
+[2021-03-05 15:21:54,996][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.001132 second [1.131691 ms])
+[2021-03-05 15:21:55,006][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000
+[2021-03-05 15:21:55,010][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.013734 second [13.733679 ms])
+[2021-03-05 15:21:55,011][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 6 finish index file: 7
+[2021-03-05 15:21:55,013][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 6 all done
+[2021-03-05 15:21:55,016][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927612655811000 refcount:0
+[2021-03-05 15:21:55,017][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.030210 second [30.209916 ms])
+[2021-03-05 15:21:55,018][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.018075 second [18.075342 ms])
+[2021-03-05 15:21:55,020][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:21:55,021][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): query vectors from engine (0.040231 second [40.230606 ms])
+[2021-03-05 15:21:55,022][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): construct result (0.001037 second [1.036607 ms])
+[2021-03-05 15:21:55,023][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): totally cost (0.042703 second [42.702755 ms])
+[2021-03-05 15:43:35,392][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 64
+[2021-03-05 15:43:35,393][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000852 ms])
+[2021-03-05 15:43:35,415][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 65
+[2021-03-05 15:43:35,418][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): check validation (0.000003 second [0.002760 ms])
+[2021-03-05 15:43:35,420][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): totally cost (0.002350 second [2.350376 ms])
+[2021-03-05 15:43:35,435][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 66
+[2021-03-05 15:43:35,437][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=imagesearch): totally cost (0.000271 second [0.271481 ms])
+[2021-03-05 15:43:35,504][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 67
+[2021-03-05 15:43:35,506][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): check validation (0.000247 second [0.246697 ms])
+[2021-03-05 15:43:35,506][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): prepare vectors data (0.000657 second [0.657024 ms])
+[2021-03-05 15:43:35,516][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = imagesearch
+[2021-03-05 15:43:35,517][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): add vectors to engine (0.010084 second [10.083965 ms])
+[2021-03-05 15:43:35,517][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): total cost (0.011489 second [11.489248 ms])
+[2021-03-05 15:43:35,520][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614930215518897000
+[2021-03-05 15:43:35,525][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 15:43:35,544][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 68
+[2021-03-05 15:43:35,546][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: imagesearch, 
+[2021-03-05 15:43:35,547][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: imagesearch
+[2021-03-05 15:43:35,548][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:43:35,550][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: imagesearch
+[2021-03-05 15:43:35,557][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.006927 second [6.926994 ms])
+[2021-03-05 15:43:35,591][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.033388 second [33.387762 ms])
+[2021-03-05 15:43:35,591][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000680 second [0.679700 ms])
+[2021-03-05 15:43:35,592][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.041613 second [41.612653 ms])
+[2021-03-05 15:43:35,596][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.002773 second [2.773434 ms])
+[2021-03-05 15:43:35,599][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.002598 second [2.598025 ms])
+[2021-03-05 15:43:35,600][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.007836 second [7.836275 ms])
+[2021-03-05 15:43:35,605][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.005530 second [5.530276 ms])
+[2021-03-05 15:43:35,606][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614930215518897000 of size 180224 bytes, lsn = 1082568
+[2021-03-05 15:43:35,606][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614930215518897000
+[2021-03-05 15:43:35,625][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 15:43:35,630][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = imagesearch flush_lsn = 1082568
+[2021-03-05 15:43:35,630][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection imagesearch: Finished flushing (0.079983 second [79.982536 ms])
+[2021-03-05 15:43:35,631][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: imagesearch
+[2021-03-05 15:43:35,632][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: imagesearch
+[2021-03-05 15:43:35,633][DEBUG][ENGINE][FilesToMerge][milvus_server] Collect 2 to-merge files in collection imagesearch
+[2021-03-05 15:43:35,633][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: imagesearch, : totally cost (0.086776 second [86.775561 ms])
+[2021-03-05 15:43:35,634][DEBUG][ENGINE][MarkOngoingFileNoLock][milvus_server] Mark ongoing file:1614927612655811000 refcount:1
+[2021-03-05 15:43:35,634][DEBUG][ENGINE][MarkOngoingFileNoLock][milvus_server] Mark ongoing file:1614930215518897000 refcount:1
+[2021-03-05 15:43:35,637][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 69
+[2021-03-05 15:43:35,638][DEBUG][ENGINE][CreateCollectionFile][milvus_server] Successfully create collection file, file id = 1614930215636027000
+[2021-03-05 15:43:35,643][DEBUG][ENGINE][Merge][milvus_server] Merging from /var/lib/milvus/db/tables/imagesearch/1614930215518897000 to /var/lib/milvus/db/tables/imagesearch/1614930215636027000
+[2021-03-05 15:43:35,643][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): check validation (0.004316 second [4.315680 ms])
+[2021-03-05 15:43:35,644][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): totally cost (0.005831 second [5.830518 ms])
+[2021-03-05 15:43:35,646][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 70
+[2021-03-05 15:43:35,648][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927612655811000 refcount:2
+[2021-03-05 15:43:35,649][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930215518897000 refcount:2
+[2021-03-05 15:43:35,649][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:2 to_index files:0 index files:0
+[2021-03-05 15:43:35,650][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927612655811000 refcount:1
+[2021-03-05 15:43:35,651][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930215518897000 refcount:1
+[2021-03-05 15:43:35,651][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=imagesearch): totally cost (0.003480 second [3.479952 ms])
+[2021-03-05 15:43:35,654][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Loading segment (0.010890 second [10.890168 ms])
+[2021-03-05 15:43:35,657][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: erase (0.002356 second [2.355577 ms])
+[2021-03-05 15:43:35,657][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Adding 22 vectors and uids (0.000486 second [0.485995 ms])
+[2021-03-05 15:43:35,658][DEBUG][ENGINE][Merge][milvus_server] Merging completed from /var/lib/milvus/db/tables/imagesearch/1614930215518897000 to /var/lib/milvus/db/tables/imagesearch/1614930215636027000
+[2021-03-05 15:43:35,658][DEBUG][ENGINE][Merge][milvus_server] Merging from /var/lib/milvus/db/tables/imagesearch/1614927612655811000 to /var/lib/milvus/db/tables/imagesearch/1614930215636027000
+[2021-03-05 15:43:35,663][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 71
+[2021-03-05 15:43:35,669][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000011 second [0.011158 ms])
+[2021-03-05 15:43:35,672][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): check validation (0.000224 second [0.224226 ms])
+[2021-03-05 15:43:35,674][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Loading segment (0.011557 second [11.556518 ms])
+[2021-03-05 15:43:35,675][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: erase (0.001788 second [1.788362 ms])
+[2021-03-05 15:43:35,676][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614927612655811000 refcount:2
+[2021-03-05 15:43:35,677][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930215518897000 refcount:2
+[2021-03-05 15:43:35,678][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 2 to-search files in collection imagesearch
+[2021-03-05 15:43:35,679][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Merge: Adding 22 vectors and uids (0.001306 second [1.305764 ms])
+[2021-03-05 15:43:35,680][DEBUG][ENGINE][Merge][milvus_server] Merging completed from /var/lib/milvus/db/tables/imagesearch/1614927612655811000 to /var/lib/milvus/db/tables/imagesearch/1614930215636027000
+[2021-03-05 15:43:35,681][DEBUG][ENGINE][Execute][milvus_server] Merge task files size info:180400, 180400, 
+[2021-03-05 15:43:35,682][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:43:35,682][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:43:35,683][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 2
+[2021-03-05 15:43:35,684][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 7 add index file: 7
+[2021-03-05 15:43:35,685][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 7 add index file: 8
+[2021-03-05 15:43:35,687][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:43:35,688][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:43:35,689][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:43:35,690][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:43:35,691][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:43:35,692][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:43:35,693][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.007856 second [7.855905 ms])
+[2021-03-05 15:43:35,693][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:43:35,715][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/imagesearch/1614930215518897000/1614930215518897000
+[2021-03-05 15:43:35,716][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/imagesearch/1614930215518897000
+[2021-03-05 15:43:35,718][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/imagesearch/1614930215518897000/1614930215518897000 size: 0MB into cache
+[2021-03-05 15:43:35,721][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 3, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:43:35,722][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:8 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614930215518897000/1614930215518897000 totally cost (0.029294 second [29.293968 ms])
+[2021-03-05 15:43:35,724][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000 totally cost (0.000014 second [0.014367 ms])
+[2021-03-05 15:43:35,725][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000004 second [0.004455 ms])
+[2021-03-05 15:43:35,730][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.006747 second [6.746838 ms])
+[2021-03-05 15:43:35,739][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614930215518897000/1614930215518897000
+[2021-03-05 15:43:35,740][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.009799 second [9.798556 ms])
+[2021-03-05 15:43:35,741][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 7 finish index file: 8
+[2021-03-05 15:43:35,742][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:8: totally cost (0.018580 second [18.579910 ms])
+[2021-03-05 15:43:35,744][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000004 second [0.003665 ms])
+[2021-03-05 15:43:35,745][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.000797 second [0.797106 ms])
+[2021-03-05 15:43:35,745][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000
+[2021-03-05 15:43:35,747][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.002057 second [2.056884 ms])
+[2021-03-05 15:43:35,747][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 7 finish index file: 7
+[2021-03-05 15:43:35,750][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.006449 second [6.448828 ms])
+[2021-03-05 15:43:35,751][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 7 all done
+[2021-03-05 15:43:35,754][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614927612655811000 refcount:1
+[2021-03-05 15:43:35,756][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930215518897000 refcount:1
+[2021-03-05 15:43:35,756][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.072989 second [72.988569 ms])
+[2021-03-05 15:43:35,757][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 3, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:43:35,758][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): query vectors from engine (0.086129 second [86.129094 ms])
+[2021-03-05 15:43:35,762][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): construct result (0.003518 second [3.517977 ms])
+[2021-03-05 15:43:35,764][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): totally cost (0.092046 second [92.046370 ms])
+[2021-03-05 15:43:35,769][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Adding 44 ids to bloom filter (0.079746 second [79.745912 ms])
+[2021-03-05 15:43:35,770][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000681 second [0.681356 ms])
+[2021-03-05 15:43:35,770][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing bloom filter done (0.088847 second [88.847377 ms])
+[2021-03-05 15:43:35,783][DEBUG][SERVER][PrintTimeRecord][milvus_server] write vectors: write rv done (0.011321 second [11.321029 ms])
+[2021-03-05 15:43:35,788][DEBUG][SERVER][PrintTimeRecord][milvus_server] write vectors: write uids done (0.004992 second [4.991673 ms])
+[2021-03-05 15:43:35,791][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing vectors and uids done (0.020620 second [20.619783 ms])
+[2021-03-05 15:43:35,799][DEBUG][SERVER][PrintTimeRecord][milvus_server] SegmentWriter::Serialize: Writing deleted docs done (0.007969 second [7.969156 ms])
+[2021-03-05 15:43:35,801][DEBUG][ENGINE][UpdateCollectionFiles][milvus_server] Update 3 collection files
+[2021-03-05 15:43:35,803][DEBUG][ENGINE][Execute][milvus_server] New merged segment 1614930215636027000 of size 360800 bytes
+[2021-03-05 15:43:35,806][DEBUG][ENGINE][UnmarkOngoingFileNoLock][milvus_server] Unmark ongoing file:1614930215518897000 refcount:0
+[2021-03-05 15:43:35,829][DEBUG][ENGINE][UnmarkOngoingFileNoLock][milvus_server] Unmark ongoing file:1614927612655811000 refcount:0
+[2021-03-05 15:43:46,408][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000 size: 0MB from cache
+[2021-03-05 15:43:46,410][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:43:46,412][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614927612655811000 location:/var/lib/milvus/db/tables/imagesearch/1614927612655811000/1614927612655811000
+[2021-03-05 15:43:46,413][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/imagesearch/1614930215518897000/1614930215518897000 size: 0MB from cache
+[2021-03-05 15:43:46,414][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:43:46,416][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614930215518897000 location:/var/lib/milvus/db/tables/imagesearch/1614930215518897000/1614930215518897000
+[2021-03-05 15:43:46,418][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 2 files expired in 10 seconds
+[2021-03-05 15:43:46,439][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614927612655811000
+[2021-03-05 15:43:46,454][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614930215518897000
+[2021-03-05 15:43:46,454][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 2 segments folder
+[2021-03-05 15:43:49,396][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 72
+[2021-03-05 15:43:49,400][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): check validation (0.000235 second [0.234543 ms])
+[2021-03-05 15:43:49,404][DEBUG][ENGINE][DropCollectionRecursively][reqsched_thread] Prepare to delete collection imagesearch
+[2021-03-05 15:43:49,409][DEBUG][ENGINE][DropCollection][reqsched_thread] Successfully delete collection, collection id = imagesearch
+[2021-03-05 15:43:49,413][DEBUG][ENGINE][DeleteCollectionFiles][reqsched_thread] Successfully delete collection files, collection id = imagesearch
+[2021-03-05 15:43:49,416][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush all collections
+[2021-03-05 15:43:49,417][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:43:49,424][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections from meta
+[2021-03-05 15:43:49,427][DEBUG][ENGINE][Flush][reqsched_thread] End flush all collections
+[2021-03-05 15:43:49,428][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): total cost (0.027639 second [27.639165 ms])
+[2021-03-05 15:43:59,446][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614930215636027000 location:/var/lib/milvus/db/tables/imagesearch/1614930215636027000/1614930215636027000
+[2021-03-05 15:43:59,448][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 1 files expired in 10 seconds
+[2021-03-05 15:43:59,461][DEBUG][ENGINE][DeleteCollectionPath][milvus_server] Remove collection folder: /var/lib/milvus/db/tables/imagesearch
+[2021-03-05 15:43:59,462][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections folder
+[2021-03-05 15:43:59,464][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614930215636027000
+[2021-03-05 15:43:59,465][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 segments folder
+[2021-03-05 15:44:07,630][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 73
+[2021-03-05 15:44:07,631][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000711 ms])
+[2021-03-05 15:44:07,649][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 74
+[2021-03-05 15:44:07,650][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): check validation (0.000003 second [0.002853 ms])
+[2021-03-05 15:44:07,656][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: imagesearch
+[2021-03-05 15:44:07,659][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): totally cost (0.008884 second [8.883848 ms])
+[2021-03-05 15:44:07,669][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 75
+[2021-03-05 15:44:07,671][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=imagesearch): totally cost (0.000173 second [0.173087 ms])
+[2021-03-05 15:44:07,740][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 76
+[2021-03-05 15:44:07,742][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): check validation (0.000132 second [0.132290 ms])
+[2021-03-05 15:44:07,743][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): prepare vectors data (0.000536 second [0.535931 ms])
+[2021-03-05 15:44:07,749][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = imagesearch
+[2021-03-05 15:44:07,749][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): add vectors to engine (0.006555 second [6.554640 ms])
+[2021-03-05 15:44:07,750][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): total cost (0.007548 second [7.548322 ms])
+[2021-03-05 15:44:07,752][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614930247751074000
+[2021-03-05 15:44:07,755][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 15:44:07,779][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 77
+[2021-03-05 15:44:07,781][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: imagesearch, 
+[2021-03-05 15:44:07,782][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: imagesearch
+[2021-03-05 15:44:07,782][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:44:07,784][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: imagesearch
+[2021-03-05 15:44:07,792][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.006370 second [6.369819 ms])
+[2021-03-05 15:44:07,826][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.034817 second [34.817340 ms])
+[2021-03-05 15:44:07,827][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000503 second [0.503387 ms])
+[2021-03-05 15:44:07,827][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.042210 second [42.209549 ms])
+[2021-03-05 15:44:07,832][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.003618 second [3.617890 ms])
+[2021-03-05 15:44:07,834][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.002375 second [2.375015 ms])
+[2021-03-05 15:44:07,835][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.007939 second [7.939292 ms])
+[2021-03-05 15:44:07,840][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.004427 second [4.427396 ms])
+[2021-03-05 15:44:07,840][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614930247751074000 of size 180224 bytes, lsn = 1263000
+[2021-03-05 15:44:07,841][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614930247751074000
+[2021-03-05 15:44:07,854][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 15:44:07,857][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = imagesearch flush_lsn = 1263000
+[2021-03-05 15:44:07,858][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection imagesearch: Finished flushing (0.073082 second [73.082137 ms])
+[2021-03-05 15:44:07,859][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: imagesearch
+[2021-03-05 15:44:07,860][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: imagesearch
+[2021-03-05 15:44:07,861][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: imagesearch, : totally cost (0.080344 second [80.343901 ms])
+[2021-03-05 15:44:07,864][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 78
+[2021-03-05 15:44:07,865][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): check validation (0.000119 second [0.119377 ms])
+[2021-03-05 15:44:07,866][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): totally cost (0.001070 second [1.069873 ms])
+[2021-03-05 15:44:07,868][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 79
+[2021-03-05 15:44:07,869][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930247751074000 refcount:1
+[2021-03-05 15:44:07,870][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 15:44:07,870][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930247751074000 refcount:0
+[2021-03-05 15:44:07,871][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=imagesearch): totally cost (0.001525 second [1.524659 ms])
+[2021-03-05 15:44:07,879][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 80
+[2021-03-05 15:44:07,882][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000349 second [0.349240 ms])
+[2021-03-05 15:44:07,884][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): check validation (0.000112 second [0.112085 ms])
+[2021-03-05 15:44:07,885][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930247751074000 refcount:1
+[2021-03-05 15:44:07,886][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 15:44:07,887][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:44:07,888][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:44:07,889][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 15:44:07,890][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 9 add index file: 7
+[2021-03-05 15:44:07,893][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:44:07,894][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:44:07,894][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:44:07,895][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:44:07,908][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/imagesearch/1614930247751074000/1614930247751074000
+[2021-03-05 15:44:07,908][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/imagesearch/1614930247751074000
+[2021-03-05 15:44:07,909][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/imagesearch/1614930247751074000/1614930247751074000 size: 0MB into cache
+[2021-03-05 15:44:07,910][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:44:07,910][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614930247751074000/1614930247751074000 totally cost (0.015370 second [15.370444 ms])
+[2021-03-05 15:44:07,911][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000004 second [0.004299 ms])
+[2021-03-05 15:44:07,920][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.008590 second [8.590335 ms])
+[2021-03-05 15:44:07,929][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614930247751074000/1614930247751074000
+[2021-03-05 15:44:07,930][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.010157 second [10.157454 ms])
+[2021-03-05 15:44:07,930][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 9 finish index file: 7
+[2021-03-05 15:44:07,931][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.019886 second [19.885542 ms])
+[2021-03-05 15:44:07,932][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 9 all done
+[2021-03-05 15:44:07,932][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930247751074000 refcount:0
+[2021-03-05 15:44:07,933][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.044375 second [44.374854 ms])
+[2021-03-05 15:44:07,933][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:44:07,934][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): query vectors from engine (0.049558 second [49.557983 ms])
+[2021-03-05 15:44:07,934][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): construct result (0.000332 second [0.331741 ms])
+[2021-03-05 15:44:07,935][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): totally cost (0.050485 second [50.484836 ms])
+[2021-03-05 15:44:10,410][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 81
+[2021-03-05 15:44:10,413][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): check validation (0.000454 second [0.454226 ms])
+[2021-03-05 15:44:10,414][DEBUG][ENGINE][DropCollectionRecursively][reqsched_thread] Prepare to delete collection imagesearch
+[2021-03-05 15:44:10,418][DEBUG][ENGINE][DropCollection][reqsched_thread] Successfully delete collection, collection id = imagesearch
+[2021-03-05 15:44:10,426][DEBUG][ENGINE][DeleteCollectionFiles][reqsched_thread] Successfully delete collection files, collection id = imagesearch
+[2021-03-05 15:44:10,429][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush all collections
+[2021-03-05 15:44:10,430][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:44:10,434][DEBUG][ENGINE][Flush][reqsched_thread] End flush all collections
+[2021-03-05 15:44:10,435][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): total cost (0.022314 second [22.314473 ms])
+[2021-03-05 15:44:10,441][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections from meta
+[2021-03-05 15:44:20,467][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/imagesearch/1614930247751074000/1614930247751074000 size: 0MB from cache
+[2021-03-05 15:44:20,468][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:44:20,469][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614930247751074000 location:/var/lib/milvus/db/tables/imagesearch/1614930247751074000/1614930247751074000
+[2021-03-05 15:44:20,472][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 1 files expired in 10 seconds
+[2021-03-05 15:44:20,485][DEBUG][ENGINE][DeleteCollectionPath][milvus_server] Remove collection folder: /var/lib/milvus/db/tables/imagesearch
+[2021-03-05 15:44:20,486][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections folder
+[2021-03-05 15:44:20,487][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614930247751074000
+[2021-03-05 15:44:20,488][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 segments folder
+[2021-03-05 15:52:20,417][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 82
+[2021-03-05 15:52:20,425][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000042 second [0.041914 ms])
+[2021-03-05 15:52:20,433][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): totally cost (0.001418 second [1.418235 ms])
+[2021-03-05 15:52:32,570][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 83
+[2021-03-05 15:52:32,574][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000091 second [0.090694 ms])
+[2021-03-05 15:52:32,578][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): totally cost (0.001652 second [1.651564 ms])
+[2021-03-05 15:53:14,238][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 84
+[2021-03-05 15:53:14,240][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000688 ms])
+[2021-03-05 15:53:14,258][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 85
+[2021-03-05 15:53:14,259][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): check validation (0.000004 second [0.004264 ms])
+[2021-03-05 15:53:14,263][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: imagesearch
+[2021-03-05 15:53:14,267][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): totally cost (0.008182 second [8.182259 ms])
+[2021-03-05 15:53:14,275][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 86
+[2021-03-05 15:53:14,277][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=imagesearch): totally cost (0.000128 second [0.128441 ms])
+[2021-03-05 15:53:14,356][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 87
+[2021-03-05 15:53:14,359][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): check validation (0.000150 second [0.150054 ms])
+[2021-03-05 15:53:14,360][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): prepare vectors data (0.000583 second [0.583439 ms])
+[2021-03-05 15:53:14,367][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = imagesearch
+[2021-03-05 15:53:14,368][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): add vectors to engine (0.007787 second [7.786868 ms])
+[2021-03-05 15:53:14,368][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): total cost (0.008925 second [8.924712 ms])
+[2021-03-05 15:53:14,369][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614930794368277000
+[2021-03-05 15:53:14,374][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 15:53:14,406][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 88
+[2021-03-05 15:53:14,407][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: imagesearch, 
+[2021-03-05 15:53:14,409][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: imagesearch
+[2021-03-05 15:53:14,411][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:53:14,415][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: imagesearch
+[2021-03-05 15:53:14,424][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.007842 second [7.842190 ms])
+[2021-03-05 15:53:14,466][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.041781 second [41.781480 ms])
+[2021-03-05 15:53:14,466][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000503 second [0.503214 ms])
+[2021-03-05 15:53:14,467][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.050647 second [50.646997 ms])
+[2021-03-05 15:53:14,472][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.004221 second [4.220737 ms])
+[2021-03-05 15:53:14,476][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.004266 second [4.265552 ms])
+[2021-03-05 15:53:14,478][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.011400 second [11.399810 ms])
+[2021-03-05 15:53:14,483][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.005345 second [5.344591 ms])
+[2021-03-05 15:53:14,484][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614930794368277000 of size 180224 bytes, lsn = 1443432
+[2021-03-05 15:53:14,484][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614930794368277000
+[2021-03-05 15:53:14,502][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 15:53:14,514][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = imagesearch flush_lsn = 1443432
+[2021-03-05 15:53:14,515][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection imagesearch: Finished flushing (0.099139 second [99.139161 ms])
+[2021-03-05 15:53:14,516][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: imagesearch
+[2021-03-05 15:53:14,517][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: imagesearch
+[2021-03-05 15:53:14,518][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: imagesearch, : totally cost (0.111022 second [111.022121 ms])
+[2021-03-05 15:53:14,520][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 89
+[2021-03-05 15:53:14,522][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): check validation (0.000159 second [0.159352 ms])
+[2021-03-05 15:53:14,523][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): totally cost (0.001282 second [1.282191 ms])
+[2021-03-05 15:53:14,526][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 90
+[2021-03-05 15:53:14,527][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930794368277000 refcount:1
+[2021-03-05 15:53:14,528][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 15:53:14,528][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930794368277000 refcount:0
+[2021-03-05 15:53:14,529][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=imagesearch): totally cost (0.001976 second [1.976464 ms])
+[2021-03-05 15:53:14,538][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 91
+[2021-03-05 15:53:14,544][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000013 second [0.012637 ms])
+[2021-03-05 15:53:14,548][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): check validation (0.000170 second [0.169747 ms])
+[2021-03-05 15:53:14,551][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930794368277000 refcount:1
+[2021-03-05 15:53:14,553][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 15:53:14,555][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:53:14,556][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:53:14,557][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 15:53:14,558][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 11 add index file: 7
+[2021-03-05 15:53:14,560][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:53:14,562][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:53:14,563][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:53:14,564][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:53:14,581][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/imagesearch/1614930794368277000/1614930794368277000
+[2021-03-05 15:53:14,581][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/imagesearch/1614930794368277000
+[2021-03-05 15:53:14,582][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/imagesearch/1614930794368277000/1614930794368277000 size: 0MB into cache
+[2021-03-05 15:53:14,582][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:53:14,583][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614930794368277000/1614930794368277000 totally cost (0.019043 second [19.043204 ms])
+[2021-03-05 15:53:14,583][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000004 second [0.003839 ms])
+[2021-03-05 15:53:14,584][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.000674 second [0.674007 ms])
+[2021-03-05 15:53:14,595][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614930794368277000/1614930794368277000
+[2021-03-05 15:53:14,596][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 12 (0.011754 second [11.754087 ms])
+[2021-03-05 15:53:14,596][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 11 finish index file: 7
+[2021-03-05 15:53:14,597][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 11 all done
+[2021-03-05 15:53:14,598][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930794368277000 refcount:0
+[2021-03-05 15:53:14,599][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.041945 second [41.944550 ms])
+[2021-03-05 15:53:14,599][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:53:14,600][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.013750 second [13.750351 ms])
+[2021-03-05 15:53:14,601][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): query vectors from engine (0.051837 second [51.836954 ms])
+[2021-03-05 15:53:14,601][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): construct result (0.001115 second [1.114750 ms])
+[2021-03-05 15:53:14,602][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): totally cost (0.053796 second [53.796027 ms])
+[2021-03-05 15:53:17,602][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 92
+[2021-03-05 15:53:17,605][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): check validation (0.000405 second [0.405033 ms])
+[2021-03-05 15:53:17,607][DEBUG][ENGINE][DropCollectionRecursively][reqsched_thread] Prepare to delete collection imagesearch
+[2021-03-05 15:53:17,610][DEBUG][ENGINE][DropCollection][reqsched_thread] Successfully delete collection, collection id = imagesearch
+[2021-03-05 15:53:17,613][DEBUG][ENGINE][DeleteCollectionFiles][reqsched_thread] Successfully delete collection files, collection id = imagesearch
+[2021-03-05 15:53:17,614][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush all collections
+[2021-03-05 15:53:17,616][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:53:17,625][DEBUG][ENGINE][Flush][reqsched_thread] End flush all collections
+[2021-03-05 15:53:17,627][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): total cost (0.021539 second [21.539157 ms])
+[2021-03-05 15:53:17,633][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections from meta
+[2021-03-05 15:53:27,648][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/imagesearch/1614930794368277000/1614930794368277000 size: 0MB from cache
+[2021-03-05 15:53:27,649][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:53:27,651][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614930794368277000 location:/var/lib/milvus/db/tables/imagesearch/1614930794368277000/1614930794368277000
+[2021-03-05 15:53:27,655][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 1 files expired in 10 seconds
+[2021-03-05 15:53:27,677][DEBUG][ENGINE][DeleteCollectionPath][milvus_server] Remove collection folder: /var/lib/milvus/db/tables/imagesearch
+[2021-03-05 15:53:27,678][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections folder
+[2021-03-05 15:53:27,680][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614930794368277000
+[2021-03-05 15:53:27,680][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 segments folder
+[2021-03-05 15:55:00,070][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 93
+[2021-03-05 15:55:00,071][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.001010 ms])
+[2021-03-05 15:55:00,094][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 94
+[2021-03-05 15:55:00,095][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): check validation (0.000004 second [0.003508 ms])
+[2021-03-05 15:55:00,101][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: imagesearch
+[2021-03-05 15:55:00,112][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): totally cost (0.016786 second [16.785558 ms])
+[2021-03-05 15:55:00,123][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 95
+[2021-03-05 15:55:00,126][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=imagesearch): totally cost (0.000313 second [0.312850 ms])
+[2021-03-05 15:55:00,200][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 96
+[2021-03-05 15:55:00,205][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): check validation (0.000443 second [0.443284 ms])
+[2021-03-05 15:55:00,206][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): prepare vectors data (0.001464 second [1.463746 ms])
+[2021-03-05 15:55:00,216][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = imagesearch
+[2021-03-05 15:55:00,218][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): add vectors to engine (0.011570 second [11.569834 ms])
+[2021-03-05 15:55:00,219][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): total cost (0.014461 second [14.460688 ms])
+[2021-03-05 15:55:00,220][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614930900218355000
+[2021-03-05 15:55:00,226][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 15:55:00,267][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 97
+[2021-03-05 15:55:00,270][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: imagesearch, 
+[2021-03-05 15:55:00,271][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: imagesearch
+[2021-03-05 15:55:00,272][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:55:00,275][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: imagesearch
+[2021-03-05 15:55:00,282][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.006007 second [6.007441 ms])
+[2021-03-05 15:55:00,317][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.035322 second [35.322458 ms])
+[2021-03-05 15:55:00,318][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000402 second [0.402108 ms])
+[2021-03-05 15:55:00,318][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.042187 second [42.186961 ms])
+[2021-03-05 15:55:00,322][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.002944 second [2.943506 ms])
+[2021-03-05 15:55:00,324][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.002474 second [2.474372 ms])
+[2021-03-05 15:55:00,325][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.007130 second [7.130153 ms])
+[2021-03-05 15:55:00,330][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.004553 second [4.552886 ms])
+[2021-03-05 15:55:00,330][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614930900218355000 of size 180224 bytes, lsn = 1623864
+[2021-03-05 15:55:00,331][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614930900218355000
+[2021-03-05 15:55:00,347][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 15:55:00,355][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = imagesearch flush_lsn = 1623864
+[2021-03-05 15:55:00,356][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection imagesearch: Finished flushing (0.079884 second [79.884177 ms])
+[2021-03-05 15:55:00,357][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: imagesearch
+[2021-03-05 15:55:00,358][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: imagesearch
+[2021-03-05 15:55:00,359][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: imagesearch, : totally cost (0.088613 second [88.613441 ms])
+[2021-03-05 15:55:00,362][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 98
+[2021-03-05 15:55:00,364][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): check validation (0.000248 second [0.248343 ms])
+[2021-03-05 15:55:00,365][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): totally cost (0.001193 second [1.193325 ms])
+[2021-03-05 15:55:00,367][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 99
+[2021-03-05 15:55:00,369][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930900218355000 refcount:1
+[2021-03-05 15:55:00,369][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 15:55:00,369][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930900218355000 refcount:0
+[2021-03-05 15:55:00,370][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=imagesearch): totally cost (0.001721 second [1.720831 ms])
+[2021-03-05 15:55:00,378][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 100
+[2021-03-05 15:55:00,382][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000010 second [0.009709 ms])
+[2021-03-05 15:55:00,385][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): check validation (0.000185 second [0.185154 ms])
+[2021-03-05 15:55:00,386][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930900218355000 refcount:1
+[2021-03-05 15:55:00,387][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 15:55:00,388][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:55:00,389][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:55:00,390][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 15:55:00,390][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 13 add index file: 7
+[2021-03-05 15:55:00,393][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:55:00,394][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:55:00,395][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:55:00,396][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:55:00,411][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/imagesearch/1614930900218355000/1614930900218355000
+[2021-03-05 15:55:00,412][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/imagesearch/1614930900218355000
+[2021-03-05 15:55:00,413][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/imagesearch/1614930900218355000/1614930900218355000 size: 0MB into cache
+[2021-03-05 15:55:00,414][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:55:00,414][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614930900218355000/1614930900218355000 totally cost (0.017700 second [17.699539 ms])
+[2021-03-05 15:55:00,415][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000005 second [0.004948 ms])
+[2021-03-05 15:55:00,425][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.010321 second [10.320890 ms])
+[2021-03-05 15:55:00,426][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614930900218355000/1614930900218355000
+[2021-03-05 15:55:00,427][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 12 (0.001922 second [1.921826 ms])
+[2021-03-05 15:55:00,437][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 13 finish index file: 7
+[2021-03-05 15:55:00,438][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.022985 second [22.985132 ms])
+[2021-03-05 15:55:00,439][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 13 all done
+[2021-03-05 15:55:00,440][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930900218355000 refcount:0
+[2021-03-05 15:55:00,441][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.051129 second [51.128990 ms])
+[2021-03-05 15:55:00,442][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:55:00,443][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): query vectors from engine (0.057260 second [57.260390 ms])
+[2021-03-05 15:55:00,444][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): construct result (0.000870 second [0.869878 ms])
+[2021-03-05 15:55:00,445][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=12): totally cost (0.059410 second [59.410208 ms])
+[2021-03-05 15:55:03,525][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 101
+[2021-03-05 15:55:03,527][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): check validation (0.000268 second [0.267744 ms])
+[2021-03-05 15:55:03,529][DEBUG][ENGINE][DropCollectionRecursively][reqsched_thread] Prepare to delete collection imagesearch
+[2021-03-05 15:55:03,532][DEBUG][ENGINE][DropCollection][reqsched_thread] Successfully delete collection, collection id = imagesearch
+[2021-03-05 15:55:03,546][DEBUG][ENGINE][DeleteCollectionFiles][reqsched_thread] Successfully delete collection files, collection id = imagesearch
+[2021-03-05 15:55:03,548][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush all collections
+[2021-03-05 15:55:03,550][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:55:03,565][DEBUG][ENGINE][Flush][reqsched_thread] End flush all collections
+[2021-03-05 15:55:03,566][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): total cost (0.039315 second [39.315286 ms])
+[2021-03-05 15:55:03,572][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections from meta
+[2021-03-05 15:55:13,582][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/imagesearch/1614930900218355000/1614930900218355000 size: 0MB from cache
+[2021-03-05 15:55:13,583][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:55:13,584][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614930900218355000 location:/var/lib/milvus/db/tables/imagesearch/1614930900218355000/1614930900218355000
+[2021-03-05 15:55:13,585][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 1 files expired in 10 seconds
+[2021-03-05 15:55:13,600][DEBUG][ENGINE][DeleteCollectionPath][milvus_server] Remove collection folder: /var/lib/milvus/db/tables/imagesearch
+[2021-03-05 15:55:13,601][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections folder
+[2021-03-05 15:55:13,603][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614930900218355000
+[2021-03-05 15:55:13,604][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 segments folder
+[2021-03-05 15:55:23,294][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 102
+[2021-03-05 15:55:23,296][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000960 ms])
+[2021-03-05 15:55:23,316][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 103
+[2021-03-05 15:55:23,318][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): check validation (0.000004 second [0.004191 ms])
+[2021-03-05 15:55:23,325][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: imagesearch
+[2021-03-05 15:55:23,330][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): totally cost (0.012099 second [12.099125 ms])
+[2021-03-05 15:55:23,341][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 104
+[2021-03-05 15:55:23,345][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=imagesearch): totally cost (0.000309 second [0.309329 ms])
+[2021-03-05 15:55:23,419][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 105
+[2021-03-05 15:55:23,424][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): check validation (0.000128 second [0.128456 ms])
+[2021-03-05 15:55:23,424][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): prepare vectors data (0.000593 second [0.593233 ms])
+[2021-03-05 15:55:23,430][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = imagesearch
+[2021-03-05 15:55:23,431][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): add vectors to engine (0.006879 second [6.879157 ms])
+[2021-03-05 15:55:23,432][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): total cost (0.008478 second [8.477835 ms])
+[2021-03-05 15:55:23,434][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614930923431823000
+[2021-03-05 15:55:23,438][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 15:55:23,468][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 106
+[2021-03-05 15:55:23,470][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: imagesearch, 
+[2021-03-05 15:55:23,471][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: imagesearch
+[2021-03-05 15:55:23,472][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:55:23,476][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: imagesearch
+[2021-03-05 15:55:23,487][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.009864 second [9.863730 ms])
+[2021-03-05 15:55:23,528][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.041320 second [41.320495 ms])
+[2021-03-05 15:55:23,528][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000516 second [0.516108 ms])
+[2021-03-05 15:55:23,529][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.052175 second [52.174578 ms])
+[2021-03-05 15:55:23,535][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.005117 second [5.116580 ms])
+[2021-03-05 15:55:23,538][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.003405 second [3.405066 ms])
+[2021-03-05 15:55:23,540][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.010701 second [10.700963 ms])
+[2021-03-05 15:55:23,545][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.005386 second [5.385855 ms])
+[2021-03-05 15:55:23,545][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614930923431823000 of size 180224 bytes, lsn = 1804296
+[2021-03-05 15:55:23,546][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614930923431823000
+[2021-03-05 15:55:23,564][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 15:55:23,570][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = imagesearch flush_lsn = 1804296
+[2021-03-05 15:55:23,571][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection imagesearch: Finished flushing (0.094278 second [94.278345 ms])
+[2021-03-05 15:55:23,572][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: imagesearch
+[2021-03-05 15:55:23,573][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: imagesearch
+[2021-03-05 15:55:23,574][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: imagesearch, : totally cost (0.104143 second [104.143091 ms])
+[2021-03-05 15:55:23,577][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 107
+[2021-03-05 15:55:23,578][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): check validation (0.000107 second [0.107360 ms])
+[2021-03-05 15:55:23,579][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): totally cost (0.000744 second [0.743983 ms])
+[2021-03-05 15:55:23,581][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 108
+[2021-03-05 15:55:23,583][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930923431823000 refcount:1
+[2021-03-05 15:55:23,583][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 15:55:23,584][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930923431823000 refcount:0
+[2021-03-05 15:55:23,584][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=imagesearch): totally cost (0.002109 second [2.109068 ms])
+[2021-03-05 15:55:23,593][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 109
+[2021-03-05 15:55:23,596][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000011 second [0.010593 ms])
+[2021-03-05 15:55:23,598][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): check validation (0.000138 second [0.138146 ms])
+[2021-03-05 15:55:23,599][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614930923431823000 refcount:1
+[2021-03-05 15:55:23,600][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 15:55:23,601][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 15:55:23,602][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:55:23,603][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 15:55:23,604][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 15 add index file: 7
+[2021-03-05 15:55:23,606][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 15:55:23,606][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:55:23,607][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 15:55:23,608][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 15:55:23,620][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/imagesearch/1614930923431823000/1614930923431823000
+[2021-03-05 15:55:23,621][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/imagesearch/1614930923431823000
+[2021-03-05 15:55:23,622][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/imagesearch/1614930923431823000/1614930923431823000 size: 0MB into cache
+[2021-03-05 15:55:23,623][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:55:23,623][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614930923431823000/1614930923431823000 totally cost (0.015495 second [15.494819 ms])
+[2021-03-05 15:55:23,624][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000005 second [0.004550 ms])
+[2021-03-05 15:55:23,635][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.011110 second [11.109546 ms])
+[2021-03-05 15:55:23,636][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614930923431823000/1614930923431823000
+[2021-03-05 15:55:23,643][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.008096 second [8.096395 ms])
+[2021-03-05 15:55:23,644][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 15 finish index file: 7
+[2021-03-05 15:55:23,644][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 15 all done
+[2021-03-05 15:55:23,646][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614930923431823000 refcount:0
+[2021-03-05 15:55:23,646][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.043407 second [43.407386 ms])
+[2021-03-05 15:55:23,647][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 15:55:23,647][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): query vectors from engine (0.049539 second [49.539417 ms])
+[2021-03-05 15:55:23,648][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): construct result (0.000635 second [0.635367 ms])
+[2021-03-05 15:55:23,648][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): totally cost (0.050800 second [50.799850 ms])
+[2021-03-05 15:55:23,649][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.020598 second [20.597726 ms])
+[2021-03-05 15:55:26,381][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 110
+[2021-03-05 15:55:26,387][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): check validation (0.000206 second [0.205977 ms])
+[2021-03-05 15:55:26,391][DEBUG][ENGINE][DropCollectionRecursively][reqsched_thread] Prepare to delete collection imagesearch
+[2021-03-05 15:55:26,396][DEBUG][ENGINE][DropCollection][reqsched_thread] Successfully delete collection, collection id = imagesearch
+[2021-03-05 15:55:26,403][DEBUG][ENGINE][DeleteCollectionFiles][reqsched_thread] Successfully delete collection files, collection id = imagesearch
+[2021-03-05 15:55:26,406][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush all collections
+[2021-03-05 15:55:26,408][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 15:55:26,416][DEBUG][ENGINE][Flush][reqsched_thread] End flush all collections
+[2021-03-05 15:55:26,417][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): total cost (0.030156 second [30.155854 ms])
+[2021-03-05 15:55:26,423][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections from meta
+[2021-03-05 15:55:36,436][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/imagesearch/1614930923431823000/1614930923431823000 size: 0MB from cache
+[2021-03-05 15:55:36,437][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 15:55:36,438][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614930923431823000 location:/var/lib/milvus/db/tables/imagesearch/1614930923431823000/1614930923431823000
+[2021-03-05 15:55:36,441][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 1 files expired in 10 seconds
+[2021-03-05 15:55:36,456][DEBUG][ENGINE][DeleteCollectionPath][milvus_server] Remove collection folder: /var/lib/milvus/db/tables/imagesearch
+[2021-03-05 15:55:36,457][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections folder
+[2021-03-05 15:55:36,459][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614930923431823000
+[2021-03-05 15:55:36,460][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 segments folder
+[2021-03-05 16:14:43,808][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 111
+[2021-03-05 16:14:43,810][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.001081 ms])
+[2021-03-05 16:14:43,830][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 112
+[2021-03-05 16:14:43,831][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): check validation (0.000027 second [0.027010 ms])
+[2021-03-05 16:14:43,836][DEBUG][ENGINE][CreateCollection][reqsched_thread] Successfully create collection: imagesearch
+[2021-03-05 16:14:43,841][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CreateCollectionRequest(collection=imagesearch, dimension=2048): totally cost (0.010233 second [10.232773 ms])
+[2021-03-05 16:14:43,852][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 113
+[2021-03-05 16:14:43,854][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DescribeCollectionRequest(collection=imagesearch): totally cost (0.000123 second [0.122714 ms])
+[2021-03-05 16:14:43,924][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 114
+[2021-03-05 16:14:43,928][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): check validation (0.000253 second [0.253295 ms])
+[2021-03-05 16:14:43,929][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): prepare vectors data (0.000478 second [0.478372 ms])
+[2021-03-05 16:14:43,936][DEBUG][ENGINE][UpdateCollectionFlag][reqsched_thread] Successfully update collection flag, collection id = imagesearch
+[2021-03-05 16:14:43,937][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): add vectors to engine (0.008063 second [8.063371 ms])
+[2021-03-05 16:14:43,937][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [insert][0] InsertRequest(collection=imagesearch, n=22, partition_tag=): total cost (0.009402 second [9.402094 ms])
+[2021-03-05 16:14:43,939][DEBUG][ENGINE][CreateCollectionFile][wal_thread] Successfully create collection file, file id = 1614932083937472000
+[2021-03-05 16:14:43,942][DEBUG][ENGINE][Add][wal_thread] [insert][0]Insert float data into segment
+[2021-03-05 16:14:43,971][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 115
+[2021-03-05 16:14:43,973][DEBUG][SERVER][OnExecute][reqsched_thread] FlushRequest flush collections: imagesearch, 
+[2021-03-05 16:14:43,974][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush collection: imagesearch
+[2021-03-05 16:14:43,975][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 16:14:43,979][DEBUG][ENGINE][Flush][wal_thread] Flushing collection: imagesearch
+[2021-03-05 16:14:43,988][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Initializing bloom filter (0.008065 second [8.065490 ms])
+[2021-03-05 16:14:44,027][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Adding 22 ids to bloom filter (0.039605 second [39.605193 ms])
+[2021-03-05 16:14:44,028][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::WriteBloomFilter: Writing bloom filter (0.000368 second [0.367551 ms])
+[2021-03-05 16:14:44,028][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing bloom filter done (0.048762 second [48.761862 ms])
+[2021-03-05 16:14:44,033][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write rv done (0.003978 second [3.978083 ms])
+[2021-03-05 16:14:44,036][DEBUG][SERVER][PrintTimeRecord][wal_thread] write vectors: write uids done (0.002409 second [2.408715 ms])
+[2021-03-05 16:14:44,037][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing vectors and uids done (0.008241 second [8.241131 ms])
+[2021-03-05 16:14:44,041][DEBUG][SERVER][PrintTimeRecord][wal_thread] SegmentWriter::Serialize: Writing deleted docs done (0.004368 second [4.367628 ms])
+[2021-03-05 16:14:44,041][DEBUG][ENGINE][Serialize][wal_thread] New raw file 1614932083937472000 of size 180224 bytes, lsn = 1984728
+[2021-03-05 16:14:44,042][DEBUG][ENGINE][Serialize][wal_thread] Flushed segment 1614932083937472000
+[2021-03-05 16:14:44,059][DEBUG][ENGINE][UpdateCollectionFiles][wal_thread] Update 1 collection files
+[2021-03-05 16:14:44,079][DEBUG][ENGINE][UpdateCollectionFlushLSN][wal_thread] Successfully update collection flush_lsn, collection id = imagesearch flush_lsn = 1984728
+[2021-03-05 16:14:44,080][DEBUG][SERVER][PrintTimeRecord][wal_thread] MemTable::Serialize collection imagesearch: Finished flushing (0.100640 second [100.639784 ms])
+[2021-03-05 16:14:44,081][DEBUG][ENGINE][Flush][wal_thread] Flushed collection: imagesearch
+[2021-03-05 16:14:44,083][DEBUG][ENGINE][Flush][reqsched_thread] End flush collection: imagesearch
+[2021-03-05 16:14:44,083][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] FlushRequest flush collections: imagesearch, : totally cost (0.110278 second [110.278455 ms])
+[2021-03-05 16:14:44,086][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 116
+[2021-03-05 16:14:44,087][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): check validation (0.000111 second [0.111071 ms])
+[2021-03-05 16:14:44,088][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CountCollectionRequest(collection=imagesearch): totally cost (0.000920 second [0.919779 ms])
+[2021-03-05 16:14:44,090][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 117
+[2021-03-05 16:14:44,092][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614932083937472000 refcount:1
+[2021-03-05 16:14:44,092][DEBUG][ENGINE][FilesByType][reqsched_thread] Get collection files by type. raw files:1 to_index files:0 index files:0
+[2021-03-05 16:14:44,093][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614932083937472000 refcount:0
+[2021-03-05 16:14:44,093][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] ShowCollectionInfoRequest(collection=imagesearch): totally cost (0.001659 second [1.659399 ms])
+[2021-03-05 16:14:44,102][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 118
+[2021-03-05 16:14:44,106][DEBUG][SERVER][PrintTimeRecord][grpcpp_sync_ser] [search][0] SearchRequest pre-execute(collection=imagesearch): totally cost (0.000008 second [0.007907 ms])
+[2021-03-05 16:14:44,108][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): check validation (0.000323 second [0.322599 ms])
+[2021-03-05 16:14:44,111][DEBUG][ENGINE][MarkOngoingFileNoLock][reqsched_thread] Mark ongoing file:1614932083937472000 refcount:1
+[2021-03-05 16:14:44,112][DEBUG][ENGINE][FilesToSearch][reqsched_thread] Collect 1 to-search files in collection imagesearch
+[2021-03-05 16:14:44,113][DEBUG][ENGINE][FilesToSearchEx][reqsched_thread] No file to search for collection: imagesearch
+[2021-03-05 16:14:44,114][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 1, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 16:14:44,115][DEBUG][ENGINE][QueryAsync][reqsched_thread] Engine query begin, index file count: 1
+[2021-03-05 16:14:44,115][DEBUG][SERVER][AddIndexFile][reqsched_thread] [search][0] SearchJob 17 add index file: 7
+[2021-03-05 16:14:44,117][DEBUG][ENGINE][Build][jobmgr_thread] EngineFactory index type: 1
+[2021-03-05 16:14:44,118][DEBUG][ENGINE][ExecutionEngineImpl][jobmgr_thread] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 16:14:44,118][DEBUG][SERVER][Run][jobmgr_thread] FallbackPass!
+[2021-03-05 16:14:44,119][DEBUG][ENGINE][Load][taskloader_th] Index params: {"dim":2048,"gpu_id":0,"metric_type":"L2"}
+[2021-03-05 16:14:44,131][DEBUG][ENGINE][Load][taskloader_th] set uids 22 for index /var/lib/milvus/db/tables/imagesearch/1614932083937472000/1614932083937472000
+[2021-03-05 16:14:44,132][DEBUG][ENGINE][Load][taskloader_th] Finished loading raw data from segment /var/lib/milvus/db/tables/imagesearch/1614932083937472000
+[2021-03-05 16:14:44,132][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Insert /var/lib/milvus/db/tables/imagesearch/1614932083937472000/1614932083937472000 size: 0MB into cache
+[2021-03-05 16:14:44,133][DEBUG][SERVER][insert_internal][taskloader_th] [CACHE CPU] Count: 2, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 16:14:44,133][DEBUG][SERVER][PrintTimeRecord][taskloader_th] [search][0]: Search task load file id:7 DISK2CPU file type:1 size:180403 bytes from location: /var/lib/milvus/db/tables/imagesearch/1614932083937472000/1614932083937472000 totally cost (0.013811 second [13.810870 ms])
+[2021-03-05 16:14:44,133][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query prepare (0.000003 second [0.003121 ms])
+[2021-03-05 16:14:44,158][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: query done (0.024926 second [24.926045 ms])
+[2021-03-05 16:14:44,159][DEBUG][ENGINE][Search][taskexector_th] [search][0] get 22 uids from index /var/lib/milvus/db/tables/imagesearch/1614932083937472000/1614932083937472000
+[2021-03-05 16:14:44,163][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] ExecutionEngineImpl::Search float: map uids 10 (0.005007 second [5.007305 ms])
+[2021-03-05 16:14:44,164][DEBUG][SERVER][SearchDone][taskexector_th] [search][0] SearchJob 17 finish index file: 7
+[2021-03-05 16:14:44,166][DEBUG][SERVER][PrintTimeRecord][taskexector_th] [search][0] DoSearch file id:7: totally cost (0.033010 second [33.010040 ms])
+[2021-03-05 16:14:44,167][DEBUG][SERVER][WaitResult][reqsched_thread] [search][0] SearchJob 17 all done
+[2021-03-05 16:14:44,168][DEBUG][ENGINE][UnmarkOngoingFileNoLock][reqsched_thread] Unmark ongoing file:1614932083937472000 refcount:0
+[2021-03-05 16:14:44,168][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] Engine query totally cost (0.053888 second [53.887602 ms])
+[2021-03-05 16:14:44,169][DEBUG][SERVER][print][reqsched_thread] [CACHE CPU] [item count]: 2, [usage] 0MB, [capacity] 4096MB
+[2021-03-05 16:14:44,170][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): query vectors from engine (0.061421 second [61.421009 ms])
+[2021-03-05 16:14:44,170][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): construct result (0.000684 second [0.683586 ms])
+[2021-03-05 16:14:44,171][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] [search][0] SearchRequest execute(collection=imagesearch, nq=1, k=10): totally cost (0.062817 second [62.816700 ms])
+[2021-03-05 16:14:46,718][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 119
+[2021-03-05 16:14:46,720][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): check validation (0.000184 second [0.183665 ms])
+[2021-03-05 16:14:46,722][DEBUG][ENGINE][DropCollectionRecursively][reqsched_thread] Prepare to delete collection imagesearch
+[2021-03-05 16:14:46,729][DEBUG][ENGINE][DropCollection][reqsched_thread] Successfully delete collection, collection id = imagesearch
+[2021-03-05 16:14:46,736][DEBUG][ENGINE][DeleteCollectionFiles][reqsched_thread] Successfully delete collection files, collection id = imagesearch
+[2021-03-05 16:14:46,739][DEBUG][ENGINE][Flush][reqsched_thread] Begin flush all collections
+[2021-03-05 16:14:46,741][DEBUG][ENGINE][Flush][reqsched_thread] WAL flush
+[2021-03-05 16:14:46,747][DEBUG][ENGINE][Flush][reqsched_thread] End flush all collections
+[2021-03-05 16:14:46,748][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] DropCollectionRequest(collection=imagesearch): total cost (0.028168 second [28.168048 ms])
+[2021-03-05 16:14:46,755][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections from meta
+[2021-03-05 16:14:56,772][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Erase /var/lib/milvus/db/tables/imagesearch/1614932083937472000/1614932083937472000 size: 0MB from cache
+[2021-03-05 16:14:56,774][DEBUG][SERVER][erase_internal][milvus_server] [CACHE CPU] Count: 1, Usage: 0MB, Capacity: 4096MB
+[2021-03-05 16:14:56,776][DEBUG][ENGINE][operator()][milvus_server] Remove file id:1614932083937472000 location:/var/lib/milvus/db/tables/imagesearch/1614932083937472000/1614932083937472000
+[2021-03-05 16:14:56,777][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Clean 1 files expired in 10 seconds
+[2021-03-05 16:14:56,794][DEBUG][ENGINE][DeleteCollectionPath][milvus_server] Remove collection folder: /var/lib/milvus/db/tables/imagesearch
+[2021-03-05 16:14:56,795][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 collections folder
+[2021-03-05 16:14:56,797][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove segment directory: /var/lib/milvus/db/tables/imagesearch/1614932083937472000
+[2021-03-05 16:14:56,797][DEBUG][ENGINE][CleanUpFilesWithTTL][milvus_server] Remove 1 segments folder

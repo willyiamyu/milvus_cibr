@@ -1,0 +1,15 @@
+[2021-03-05 12:09:59,879][DEBUG][ENGINE][CheckCpuInstructionSet][milvus_server] Supported CPU instruction sets: avx2, sse4_2
+[2021-03-05 12:09:59,901][DEBUG][ENGINE][Initialize][milvus_server] FAISS hook AVX2
+[2021-03-05 12:10:00,031][DEBUG][WAL][Init][milvus_server] start_lsn 0 end_lsn 0
+[2021-03-05 12:10:11,273][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 0
+[2021-03-05 12:10:11,276][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.000701 ms])
+[2021-03-05 12:12:37,365][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 1
+[2021-03-05 12:12:37,367][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000024 second [0.023903 ms])
+[2021-03-05 12:32:31,718][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 2
+[2021-03-05 12:32:31,732][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000036 second [0.036474 ms])
+[2021-03-05 12:38:48,528][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 3
+[2021-03-05 12:38:48,531][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000001 second [0.001274 ms])
+[2021-03-05 12:59:56,253][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 4
+[2021-03-05 12:59:56,257][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000026 second [0.026316 ms])
+[2021-03-05 13:14:32,196][DEBUG][SERVER][OnPostRecvInitialMetaData][grpcpp_sync_ser] milvus generate request_id: 5
+[2021-03-05 13:14:32,205][DEBUG][SERVER][PrintTimeRecord][reqsched_thread] CmdRequest(cmd=version): totally cost (0.000459 second [0.459462 ms])
