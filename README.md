@@ -5,7 +5,7 @@ Taking inspiration from [David Shvimer's Towards Data Science post](https://towa
 
 Like in the article mentioned, I decided first to use transfer learning (ResNet50) for feature extraction and use the features from transfer learning to compute cosine similarities between the images. Then I input the feature vectors into Milvus.
 
-The data is linked here: https://www.kaggle.com/c/dogs-vs-cats/data?select=test1.zip where I only used a subset of 'test1.zip', which is also linked in this repository.
+The data is linked [here](https://www.kaggle.com/c/dogs-vs-cats/data?select=test1.zip) where I only used a subset of 'test1.zip', which is also linked in this repository.
 
 ## To Run:
 Install Docker
