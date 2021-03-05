@@ -22,4 +22,4 @@ Use cases:
 Recommendation engines (products, news articles, etc)
 Question Answering, Chatbot
 
-Value Proposition: The high scalablility and comprehensitivity (a plethora of distance metrics to use) of Milvus is what makes Zilliz competitive in the industry today. 
+Value Proposition: By being open-source, Milvus will only grow from here; more people will find out about this resource, and utilize it in their projects. The high scalablility, cost-efficiency, and comprehensitivity (a plethora of distance metrics to use) of Milvus is what should make companies want to use Milvus.
